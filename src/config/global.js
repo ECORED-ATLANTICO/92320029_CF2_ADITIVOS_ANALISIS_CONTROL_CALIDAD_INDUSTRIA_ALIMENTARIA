@@ -1,8 +1,10 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name:
+      'Evaluación de la calidad e inocuidad de los alimentos mediante APPCC',
+    Description:
+      'Este componente formativo está orientado a adquirir y fortalecer en el aprendiz las competencias técnicas en gestión de calidad e inocuidad alimentaria, mediante la aplicación de Buenas Prácticas de Manufactura (BPM) y el sistema APPCC en contextos productivos reales, promoviendo la prevención de riesgos y la protección de la salud pública.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +14,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
