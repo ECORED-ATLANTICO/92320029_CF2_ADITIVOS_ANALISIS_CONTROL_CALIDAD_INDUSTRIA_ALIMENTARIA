@@ -35,13 +35,16 @@
           img(src='@/assets/curso/tema2/img_4.png', class="img-fluid") 
       .col-12.col-lg-9(data-aos="zoom-in-right")
         p.mb-3(data-aos="zoom-in-right") El sistema de Análisis de Peligros y Puntos Críticos de Control (APPCC) es una metodología preventiva diseñada para garantizar la inocuidad alimentaria mediante la identificación y el control sistemático de peligros en la cadena de producción.
-        .tarjeta--bg-img.color-primario-cv.rounded-3.p-0.mb-4.overflow-hidden(data-aos="zoom-in-right")
-          .row.justify-content-center.align-items-center.mb-0.h-100
-            .col-12.col-lg-9.p-4
-              p.mb-0 Desarrollado en la década de 1960 por la NASA, la empresa Pillsbury y el ejército de los Estados Unidos, este sistema surgió para asegurar la inocuidad de los alimentos en misiones espaciales. A diferencia de las inspecciones tradicionales del producto final, el APPCC introdujo un enfoque preventivo basado en el análisis científico del riesgo
-            .col-12.col-lg-3.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
-              figure.p-0.m-0.h-100
-                  img(src='@/assets/curso/tema2/img_5.png', class="img-fluid w-100 h-100 object-fit-cover").p-0
+        .row.justify-content-center.align-items-center.mb-3
+          .col-12.col-lg-12(data-aos="zoom-in-right")
+            .cita-decorada
+              blockquote.cita-decorada__caja.cita-decorada__caja--fondo-3.p-4
+                .row.justify-content-center.align-items-center
+                  .col-12.col-lg-11
+                    p.cita-decorada__texto.mb-2.p-3 Desarrollado en la década de 1960 por la NASA, la empresa Pillsbury y el ejército de los Estados Unidos, este sistema surgió para asegurar la inocuidad de los alimentos en misiones espaciales. A diferencia de las inspecciones tradicionales del producto final, el APPCC introdujo un enfoque preventivo basado en el análisis científico del riesgo
+                  .col-2.col-lg-1.d-none.d-lg-block
+                    figure
+                      img(src='@/assets/curso/tema2/img_5.svg', class="cita-decorada__imagen-flotante-1")
         .row.justify-content-center.align-items-center.mb-3
           .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
             figure
@@ -59,8 +62,8 @@
             h5 Figura 2.
             |    Pilares técnicos del sistema APPCC
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema1/img_3.png', class="img-fluid d-none d-lg-block").mb-5
-            img(src='@/assets/curso/tema1/img_3.png', class="img-fluid d-block d-lg-none").mb-5
+            img(src='@/assets/curso/tema2/img_8.svg', class="img-fluid d-none d-lg-block").mb-5
+            img(src='@/assets/curso/tema2/img_9.svg', class="img-fluid d-block d-lg-none").mb-5
             figcaption Nota. Adaptado del Codex Alimentarius (2023).
         
       p.mb-3 De igual manera, la comisión del Codex Alimentarius ha establecido siete principios fundamentales y estandarizados a nivel internacional para el sistema APPCC:
@@ -202,13 +205,15 @@
             i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
             span Fortalecer la confianza del consumidor.
     
-    .tarjeta--bg-img.color-primario-cv.rounded-3.p-0.mb-5.overflow-hidden(data-aos="zoom-in-right")
-      .row.justify-content-center.align-items-center.mb-0.h-100
-        .col-12.col-lg-9.p-4
-          p.mb-0 Es fundamental entender que el cumplimiento normativo es el estándar mínimo obligatorio; alcanzar la excelencia en calidad e inocuidad implica superar los requisitos legales establecidos.
-        .col-12.col-lg-3.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
-          figure.p-0.m-0.h-100
-              img(src='@/assets/curso/tema2/img_23.png', class="img-fluid w-100 h-100 object-fit-cover").p-0
+    .cita-decorada.mb-5(data-aos="zoom-in-right")
+      blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-4
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-10
+            p.cita-decorada__texto.mb-2.p-3 Es fundamental entender que el cumplimiento normativo es el estándar mínimo obligatorio; alcanzar la excelencia en calidad e inocuidad implica superar los requisitos legales establecidos.
+          .col-2.col-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/curso/tema2/img_23.svg', class="cita-decorada__imagen-flotante-1")
+    
     br
     .bg_img_5.mb-0
       .tarjeta.tarjeta--blanca.p-5.mb-0.rounded-5

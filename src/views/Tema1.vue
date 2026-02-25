@@ -43,18 +43,21 @@
             h5 Figura 1.
             |    Parámetros de medición y verificación de la calidad alimentaria
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema1/img_3.png', class="img-fluid d-none d-lg-block").mb-5
-            img(src='@/assets/curso/tema1/img_3.png', class="img-fluid d-block d-lg-none").mb-5
+            img(src='@/assets/curso/tema1/img_5.svg', class="img-fluid d-none d-lg-block").mb-5
+            img(src='@/assets/curso/tema1/img_6.svg', class="img-fluid d-block d-lg-none").mb-5
             figcaption Nota. Adaptado de la Organización Internacional de Normalización (ISO, 2023).
-
-    .tarjeta--bg-img.color-primario-cv.rounded-3.p-0.mb-4.overflow-hidden(data-aos="zoom-in-right")
-      .row.justify-content-center.align-items-center.mb-0.h-100
-        .col-12.col-lg-9.p-4
-          p.mb-0 La Organización Internacional de Normalización (ISO) establece que la calidad implica el grado en el que un conjunto de características cumple con requisitos definidos (ISO, 2023). En alimentos, dichos requisitos incluyen estándares sanitarios, límites microbiológicos, composición declarada y condiciones de conservación.
-        .col-12.col-lg-3.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
-          figure.p-0.m-0.h-100
-              img(src='@/assets/curso/tema1/img_7.png', class="img-fluid w-100 h-100 object-fit-cover").p-0
     
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12.col-lg-12(data-aos="zoom-in-right")
+        .cita-decorada
+          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-1.p-4
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-10
+                p.cita-decorada__texto.mb-2.p-3 La Organización Internacional de Normalización (ISO) establece que la calidad implica el grado en el que un conjunto de características cumple con requisitos definidos (ISO, 2023). En alimentos, dichos requisitos incluyen estándares sanitarios, límites microbiológicos, composición declarada y condiciones de conservación.
+              .col-2.col-lg-1.d-none.d-lg-block
+                figure
+                  img(src='@/assets/curso/tema1/img_7.svg', class="cita-decorada__imagen-flotante-1")
+        
     .bg_img_2.mb-3
       
       p.mb-5(data-aos="zoom-in-right") Actualmente, el análisis de alimentos representa una herramienta fundamental tanto para el control de calidad como para la investigación en la industria. Al analizar la calidad de un producto, se aplican diversas técnicas científicas orientadas a tres objetivos principales:
@@ -119,14 +122,18 @@
         figure
           img(src='@/assets/curso/tema1/img_13.png', class="img-fluid") 
       .col-12.col-lg-9(data-aos="zoom-in-right")
-        .tarjeta--bg-img.color-primario-cv.rounded-3.p-0.mb-4.overflow-hidden(data-aos="zoom-in-right")
-          .row.justify-content-center.align-items-center.mb-0.h-100
-            .col-12.col-lg-9.p-4
-              p.mb-3 La inocuidad alimentaria se refiere a la garantía de que un alimento no causará daño al consumidor cuando se prepare y consuma conforme a su uso previsto.
-              p.mb-0 Este concepto se fundamenta en la prevención de peligros biológicos, químicos y físicos que puedan afectar la salud pública. A diferencia de la calidad sensorial o comercial, la inocuidad constituye un requisito obligatorio e innegociable.
-            .col-12.col-lg-3.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
-              figure.p-0.m-0.h-100
-                  img(src='@/assets/curso/tema1/img_14.png', class="img-fluid w-100 h-100 object-fit-cover").p-0
+        .row.justify-content-center.align-items-center.mb-3
+          .col-12.col-lg-12(data-aos="zoom-in-right")
+            .cita-decorada
+              blockquote.cita-decorada__caja.cita-decorada__caja--fondo-2.p-4
+                .row.justify-content-center.align-items-center
+                  .col-12.col-lg-10
+                    p.cita-decorada__texto.mb-2.p-0 La inocuidad alimentaria se refiere a la garantía de que un alimento no causará daño al consumidor cuando se prepare y consuma conforme a su uso previsto.
+                    p.cita-decorada__texto.mb-2.p-3 Este concepto se fundamenta en la prevención de peligros biológicos, químicos y físicos que puedan afectar la salud pública. A diferencia de la calidad sensorial o comercial, la inocuidad constituye un requisito obligatorio e innegociable.
+                  .col-2.col-lg-1.d-none.d-lg-block
+                    figure
+                      img(src='@/assets/curso/tema1/img_14.svg', class="cita-decorada__imagen-flotante-1")
+        
         .tarjeta.color-secundario-cv.p-3.rounded-0.mb-3(data-aos="zoom-in-right")
           p.mb-0 Es importante precisar que, si bien la inocuidad y la calidad son conceptos relacionados, no son sinónimos.
 
