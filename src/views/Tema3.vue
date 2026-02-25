@@ -76,7 +76,7 @@
           figure
             img(src='@/assets/curso/tema2/img_13.png', class="img-fluid")
         .col-12.col-lg-8
-          .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
+          .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta--color-white.h-100
                 .tarjeta--10

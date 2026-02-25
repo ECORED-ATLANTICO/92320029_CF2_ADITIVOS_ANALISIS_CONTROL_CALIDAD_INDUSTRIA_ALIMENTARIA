@@ -64,7 +64,7 @@
 
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-8.order-2.order-lg-1
-          .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
+          .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta--color-white.h-100
                 .tarjeta--01
@@ -248,7 +248,7 @@
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/tema1/img_23.png', class="img-fluid")
         .col-12.col-lg-8
-          .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
+          .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta--color-white.h-100
                 .tarjeta--04
@@ -287,7 +287,7 @@
       .col-12.col-lg-7
         .tarjeta.color-secundario-cv.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
           .row.justify-content-center.align-items-center.mb-0
-            .col-12.col-lg-6.mb-lg-0.mb-3
+            .col-8.col-lg-6.mb-lg-0.mb-3
               figure
                 img(src="@/assets/curso/tema1/img_29.png", class="img-fluid w-100")
             .col-12.col-lg-6.mb-lg-0
