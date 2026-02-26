@@ -67,35 +67,129 @@
         p.mb-3 La verificación tiene como propósito confirmar que el Sistema APPCC se implementa y mantiene conforme a lo planificado.
         p.mb-0 El Codex (2023) señala que la verificación debe incluir:
 
-    .bg_img_18.mb-3
+    .bg_img_19.mb-3
 
       ///fakta puntos de calor
 
-      
-    
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-9.order-2.order-lg-1
+        p.mb-3 A diferencia de la validación, la verificación se realiza de manera periódica durante la operación normal del sistema.
+        .tarjeta.color-primario-cv.p-4.rounded-0.mb-3(data-aos="zoom-in-right")
+          p.mb-0 La ISO 22000:2023 enfatiza que los resultados de la verificación deben analizarse como parte del ciclo de mejora continua, permitiendo ajustes cuando se detecten desviaciones sistemáticas (ISO, 2023).
+        p.mb-0 Desde el enfoque de gestión del riesgo, la verificación asegura que el sistema mantiene su eficacia en el tiempo.
+      .col-12.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
+        figure(data-aos="zoom-out-up")
+          img(src='@/assets/curso/tema5/img_12.png', class="img-fluid")
+
     Separador
 
     #t_5_3.titulo-segundo.color-primario
       .h2(data-aos="fade-right") 5.3 Diferenciación técnica entre validación y verificación
     .mb-0 
 
-
+    .titulo-sexto.color-acento-botones(data-aos="zoom-in-right")
+      h5 Tabla 7.
+      |  Diferencias entre validación y verificación en el Sistema APPCC
+    .tabla-a.mb-5(data-aos="flip-left")
+      table
+        caption 
+          p Nota. Adaptado de Codex (2023) e ISO (2023).
+        thead
+          tr
+            th.col-auto.col-lg-3 Criterio
+            th.col-auto.col-lg-auto Validación
+            th.col-auto.col-lg-3 Verificación
+        tbody
+          tr
+            td.text-start Momento.
+            td.text-start Antes o durante cambios.
+            td.text-start Durante operación regular.
+          tr
+            td.text-start Objetivo.
+            td.text-start Demostrar eficacia del control.
+            td.text-start Confirmar cumplimiento del plan.
+          tr
+            td.text-start Base.
+            td.text-start Evidencia científica.
+            td.text-start Registros y auditorías.
+          tr
+            td.text-start Enfoque.
+            td.text-start Preventivo.
+            td.text-start Confirmatorio.
+        
+        
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-8
+        .tarjeta.color-secundario-cv.p-4.rounded-0.mb-3(data-aos="zoom-in-right")
+          p.mb-0 Comprender esta diferencia es esencial para evitar errores conceptuales frecuentes en auditorías.
 
     Separador
 
     #t_5_4.titulo-segundo.color-primario
       .h2(data-aos="fade-right") 5.4 Gestión de cambios y actualización del plan APPCC
     .mb-0 
-    
-    
-    .bg_img_18.mb-3
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+        figure
+          img(src='@/assets/curso/tema5/img_13.png', class="img-fluid") 
+      .col-12.col-lg-9(data-aos="zoom-in-right")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-12.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
+            figure
+              img(src='@/assets/curso/tema5/img_14.svg', class="img-fluid") 
+          .col-12.col-lg-11(data-aos="zoom-in-right")
+            p.mb-3 El Sistema APPCC no es estático. Debe actualizarse cuando existan:
+            ul.list-unstyled.mb-3
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Cambios en materias primas.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Modificación de procesos.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Nuevos equipos.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Actualización normativa.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Incidentes sanitarios.
+          .col-12.col-lg-12(data-aos="zoom-in-right")
+            .cita-decorada.mb-3(data-aos="zoom-in-right")
+              blockquote.cita-decorada__caja.cita-decorada__caja--fondo-5.p-5
+                .row.justify-content-center.align-items-center
+                  .col-2.col-lg-1.d-none.d-lg-block
+                    figure
+                      img(src='@/assets/curso/tema5/img_15.svg', class="cita-decorada__imagen-flotante-1")
+                  .col-12.col-lg-10
+                    p.cita-decorada__texto.mb-2.p-3 La FAO y WHO (2024) señalan que la gestión eficaz de cambios es un componente clave de la cultura de inocuidad, ya que permite responder dinámicamente a nuevos riesgos emergentes.
+            p.mb-3 Toda modificación debe documentarse y, cuando sea necesario, validarse nuevamente.
+
+    .bg_img_20.mb-3
 
       Separador
 
       #t_5_5.titulo-segundo.color-primario
         .h2(data-aos="fade-right") 5.5 Mejora continua en integración con ISO 22000:2023
       .mb-0
-
+      
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
+          figure
+            img(src='@/assets/curso/tema5/img_18.svg', class="img-fluid") 
+        .col-12.col-lg-11(data-aos="zoom-in-right")
+          .tarjeta.color-secundario-cv.p-4.rounded-0.mb-3(data-aos="zoom-in-right")
+            p.mb-0 La mejora continua se basa en el ciclo PHVA (Planificar–Hacer–Verificar–Actuar). La ISO 22000:2023 integra el APPCC dentro de un sistema de gestión que incluye liderazgo, análisis del contexto organizacional y gestión estratégica del riesgo.
+      
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
+        figure
+          img(src='@/assets/curso/tema5/img_20.svg', class="img-fluid p-4") 
+      .col-12.col-lg-9(data-aos="zoom-in-right")
+        p.mb-3 El liderazgo organizacional desempeña un papel fundamental en la consolidación de la cultura de inocuidad alimentaria (FAO & WHO, 2024).
 
     Separador
 
@@ -103,7 +197,42 @@
       .h2(data-aos="fade-right") 5.6 Indicadores de desempeño
     .mb-0 
 
-
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+        figure
+          img(src='@/assets/curso/tema5/img_21.png', class="img-fluid") 
+      .col-12.col-lg-9(data-aos="zoom-in-right")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-12.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
+            figure
+              img(src='@/assets/curso/tema5/img_22.svg', class="img-fluid") 
+          .col-12.col-lg-11(data-aos="zoom-in-right")
+            p.mb-3 La medición objetiva del desempeño fortalece la toma de decisiones técnicas.
+            p.mb-3 Indicadores sugeridos:
+            ul.list-unstyled.mb-3
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Número de desviaciones por PCC.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Cumplimiento de monitoreos programados.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Resultados microbiológicos.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Tiempo de respuesta ante incidentes.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Resultados de auditorías internas.
+          .cita-decorada.mb-3(data-aos="zoom-in-right")
+            blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3
+              .row.justify-content-center.align-items-center
+                .col-12.col-lg-10
+                  p.cita-decorada__texto.mb-2.p-3 La evaluación periódica de indicadores permite identificar tendencias y anticipar fallas potenciales.
+                .col-2.col-lg-1.d-none.d-lg-block
+                  figure
+                    img(src='@/assets/curso/tema5/img_24.svg', class="cita-decorada__imagen-flotante-1")
 </template>
 
 <script>
