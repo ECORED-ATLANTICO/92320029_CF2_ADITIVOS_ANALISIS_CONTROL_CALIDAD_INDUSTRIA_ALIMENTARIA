@@ -30,7 +30,7 @@
     p.mb-0 Las etapas preliminares incluyen:
 
     //falta
-    
+
     Separador
 
     #t_4_2.titulo-segundo.color-primario

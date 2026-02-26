@@ -165,7 +165,20 @@
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/tema2/img_19.png', class="img-fluid")
       
-      ///----falta puntos de calor
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-6
+          ImagenInfografica.color-acento-botones.puntos-grandes.puntos-personalizados
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema2/img_20.svg', class="img-fluid")
+            .tarjeta.color-primario-cv.p-3(x="10%" y="22%" numero="")
+              p <B>Decreto 3075 de 1997</B> es el gestor normativo en Colombia. 
+            .tarjeta.color-primario-cv.p-3(x="37.5%" y="5%" numero="")
+              p <B>Resolución 2674 de 2013</B> (BPM y condiciones sanitarias). Esta resolución complementa al Decreto 3075 de 1997. A la fecha, esta resolución es la norma de mayor vigencia en Colombia y establece requisitos más exigentes y actualizados.
+            .tarjeta.color-primario-cv.p-3(x="65.5%" y="5%" numero="")
+              p <B>Resolución 2606 de 2009</B> (uso de aditivos).
+            .tarjeta.color-primario-cv.p-3(x="93%" y="22%" numero="")
+              p <B>Resolución 2492 de 2022</B> (etiquetado frontal de advertencia).
     
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-12.col-lg-10.mb-5

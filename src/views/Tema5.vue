@@ -39,7 +39,21 @@
     
     .bg_img_18.mb-3
 
-      ///fakta puntos de calor
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-6
+          ImagenInfografica.color-acento-botones.puntos-grandes.puntos-personalizados
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema5/img_7.svg', class="img-fluid")
+            .tarjeta.color-primario-cv.p-3(x="36%" y="11%" numero="")
+              p <B>Estudios científicos reconocidos:</B> Evidencia experimental publicada en fuentes confiables que demuestre que las medidas de control son eficaces para reducir o eliminar los peligros identificados. 
+            .tarjeta.color-primario-cv.p-3(x="54.5%" y="41%" numero="")
+              p <B>Literatura técnica actualizada:</B> Documentación técnica vigente, guías sectoriales y referencias normativas que respalden la pertinencia y suficiencia de las medidas implementadas.
+            .tarjeta.color-primario-cv.p-3(x="87%" y="23.5%" numero="")
+              p <B>Resultados de pruebas microbiológicas:</B> Análisis de laboratorio realizados bajo métodos validados que confirmen que el proceso logra los niveles de control microbiológico establecidos.
+            .tarjeta.color-primario-cv.p-3(x="79.8%" y="69.5%" numero="")
+              p <B>Ensayos de desafío (challenge tests), cuando aplique:</B> Estudios experimentales en los que se inocula intencionalmente un microorganismo objetivo para verificar la capacidad real del proceso de controlarlo en condiciones específicas.
+    
     
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10(data-aos="zoom-in-right")
@@ -69,8 +83,20 @@
 
     .bg_img_19.mb-3
 
-      ///fakta puntos de calor
-
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-lg-6
+          ImagenInfografica.color-acento-botones.puntos-grandes.puntos-personalizados
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema5/img_11.svg', class="img-fluid")
+            .tarjeta.color-primario-cv.p-3(x="3.9%" y="27.8%" numero="")
+              p <B>Revisión de registros:</B> Análisis sistemático de los formatos y evidencias documentales para confirmar que el monitoreo y las acciones correctivas se ejecutaron conforme a lo planificado.
+            .tarjeta.color-primario-cv.p-3(x="21.9%" y="10.7%" numero="")
+              p <B>Auditorías internas:</B> Evaluaciones periódicas e independientes del sistema APPCC para determinar su grado de implementación, conformidad y eficacia.
+            .tarjeta.color-primario-cv.p-3(x="64.9%" y="10.5%" numero="")
+              p <B>Inspecciones de procesos:</B> Observación directa en planta para comprobar que las prácticas operativas y los controles se aplican según los procedimientos establecidos.
+            .tarjeta.color-primario-cv.p-3(x="90.8%" y="5%" numero="")
+              p <B>Ensayos microbiológicos:</B> Análisis de producto, superficies o ambiente que permiten corroborar objetivamente el desempeño sanitario del sistema.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-9.order-2.order-lg-1
@@ -176,6 +202,8 @@
         .h2(data-aos="fade-right") 5.5 Mejora continua en integración con ISO 22000:2023
       .mb-0
       
+      // falta componentes 
+
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
