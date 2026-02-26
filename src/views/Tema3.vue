@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.overflow-hidden
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
@@ -310,7 +310,6 @@
                       i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
                       span La verificación confirma eficacia.
                   p.mb-0 Sin verificación objetiva, el programa carece de confiabilidad.
-
 
     .cita-decorada.mb-5(data-aos="zoom-in-right")
       blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-4

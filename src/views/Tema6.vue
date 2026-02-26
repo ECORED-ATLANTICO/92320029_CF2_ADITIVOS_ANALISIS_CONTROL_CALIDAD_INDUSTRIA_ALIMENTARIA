@@ -1,11 +1,11 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.overflow-hidden
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
-      h1 Tema 6
+      h1 Auditoría, evaluación del desempeño e inspección sanitaria
 
 
 </template>

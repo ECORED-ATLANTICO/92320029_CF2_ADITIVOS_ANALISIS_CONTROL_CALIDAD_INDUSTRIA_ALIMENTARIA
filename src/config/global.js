@@ -120,11 +120,6 @@ export default {
             titulo: 'Aplicación de los siete principios',
             hash: 't_4_2',
           },
-          {
-            numero: '4.3',
-            titulo: 'Caso práctico aplicado',
-            hash: 't_4_3',
-          },
         ],
       },
       {
