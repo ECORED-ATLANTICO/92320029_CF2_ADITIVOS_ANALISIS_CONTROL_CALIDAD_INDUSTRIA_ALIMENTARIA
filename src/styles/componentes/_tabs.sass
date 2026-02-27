@@ -77,6 +77,17 @@
         color: textColor($color-acento-botones)
         &:before
           background-color: $color-acento-botones
+  &.color-acento-botones-cv
+    .tabs-a__tab
+      background-color: $color-acento-botones
+      &:hover, &:active, &:focus
+        background-color: $color-acento-botones-cv
+        color: textColor($color-acento-botones-cv)
+      &__selected
+        background-color: $color-acento-botones-cv
+        color: textColor($color-acento-botones-cv)
+        &:before
+          background-color: $color-acento-botones-cv
 
 @keyframes tab-content-active
   0%

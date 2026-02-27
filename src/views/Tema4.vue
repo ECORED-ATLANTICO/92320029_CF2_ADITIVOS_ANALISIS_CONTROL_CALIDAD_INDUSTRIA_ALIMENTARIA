@@ -27,9 +27,91 @@
     .mb-0 
 
     p.mb-3 Antes de aplicar los siete principios del APPCC, es obligatorio desarrollar etapas preparatorias que permitan estructurar el análisis con rigurosidad técnica. El Codex Alimentarius (2023) establece que estas actividades garantizan coherencia entre el proceso real y el plan documentado. 
-    p.mb-0 Las etapas preliminares incluyen:
-
-    //falta
+    p.mb-5 Las etapas preliminares incluyen:
+ 
+    TabsA.mb-0.tarjeta-tabs-a.color-acento-botones-cv.uno(data-aos="zoom-in-right")
+      .tarjeta.bg-color-color-primario-cv.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Conformación del equipo APPCC")
+        .row.justify-content-center.align-items-center.mb-0
+          .col-12.col-lg-6.order-2.order-lg-1
+            h5.mb-3 Conformación del equipo APPCC
+            p.mb-3 La organización debe designar un equipo multidisciplinario con conocimiento técnico del proceso productivo, microbiología, calidad, mantenimiento y normatividad.
+            h5.mb-3  Criterios técnicos de conformación:
+            ul.list-unstyled.mb-3
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Experiencia en procesos productivos.
+            ul.list-unstyled.mb-3
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Conocimiento en análisis microbiológico.
+            ul.list-unstyled.mb-3
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Dominio de normatividad sanitaria.
+            ul.list-unstyled.mb-3
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Capacidad de análisis documental.
+          .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
+            figure
+              img(src='@/assets/curso/tema4/img_3.png', class="img-fluid")
+      .tarjeta.bg-color-color-primario-cv.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Descripción detallada del producto")
+        .row.justify-content-center.align-items-center.mb-0
+          .col-12.col-lg-6.order-2.order-lg-1
+            h5.mb-3 Descripción detallada del producto
+            p.mb-3 La descripción del producto debe incluir:
+            ul.list-unstyled.mb-3
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Composición
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Características fisicoquímicas.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Tratamientos térmicos.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Vida útil.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Condiciones de almacenamiento.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Tipo de consumidor.
+            p.mb-3 Esta caracterización es fundamental para el análisis de peligros, ya que las condiciones intrínsecas del alimento influyen en el crecimiento microbiano (FAO, 2023).
+          .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
+            figure
+              img(src='@/assets/curso/tema4/img_4.png', class="img-fluid")
+      .tarjeta.bg-color-color-primario-cv.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Identificación del uso previsto")
+        .row.justify-content-center.align-items-center.mb-0
+          .col-12.col-lg-6.order-2.order-lg-1
+            h5.mb-3 Identificación del uso previsto
+            p.mb-3 El uso previsto define cómo se consumirá el alimento y si está dirigido a población general o grupos vulnerables (niños, adultos mayores, inmunosuprimidos).
+            p.mb-0 El Codex (2023) señala que este aspecto influye directamente en la severidad del riesgo y en la definición de límites críticos más estrictos cuando sea necesario.
+          .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
+            figure
+              img(src='@/assets/curso/tema4/img_5.png', class="img-fluid")
+      .tarjeta.bg-color-color-primario-cv.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Elaboración y verificación del diagrama de flujo")
+        .row.justify-content-center.align-items-center.mb-0
+          .col-12.col-lg-6.order-2.order-lg-1
+            h5.mb-3 Elaboración y verificación del diagrama de flujo
+            p.mb-3 El diagrama de flujo representa gráficamente cada etapa del proceso productivo desde la recepción de materias primas hasta la distribución.
+            p.mb-3 Debe ser:
+            ul.list-unstyled.mb-3
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Claro.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Secuencial.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                span Verificado en planta.
+            p.mb-0 La verificación in situ permite confirmar que el diagrama refleja fielmente la operación real (ISO, 2023).
+          .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
+            figure
+              img(src='@/assets/curso/tema4/img_6.png', class="img-fluid")
 
     Separador
 

@@ -22,7 +22,7 @@
       .mb-0 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="flip-left")
+      .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="flip-left")
         figure
           img(src='@/assets/curso/tema5/img_3.png', class="img-fluid")
       .col-12.col-lg-9
@@ -157,12 +157,12 @@
     .mb-0 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema5/img_13.png', class="img-fluid") 
       .col-12.col-lg-9(data-aos="zoom-in-right")
         .row.justify-content-center.align-items-center.mb-5
-          .col-12.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
+          .col-3.col-lg-1.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in-right")
             figure
               img(src='@/assets/curso/tema5/img_14.svg', class="img-fluid") 
           .col-12.col-lg-11(data-aos="zoom-in-right")
@@ -202,18 +202,39 @@
         .h2(data-aos="fade-right") 5.5 Mejora continua en integración con ISO 22000:2023
       .mb-0
       
-      // falta componentes 
-
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
+        .col-3.col-lg-1.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/tema5/img_18.svg', class="img-fluid") 
         .col-12.col-lg-11(data-aos="zoom-in-right")
           .tarjeta.color-secundario-cv.p-4.rounded-0.mb-3(data-aos="zoom-in-right")
             p.mb-0 La mejora continua se basa en el ciclo PHVA (Planificar–Hacer–Verificar–Actuar). La ISO 22000:2023 integra el APPCC dentro de un sistema de gestión que incluye liderazgo, análisis del contexto organizacional y gestión estratégica del riesgo.
-      
+
+        .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-right")
+          .col-10.position-relative.px-0
+            .row.align-items-stretch.g-0
+              .col-12.col-lg-7
+                figure.mb-0
+                  img(src='@/assets/curso/tema5/img_19.png', class='img-fluid w-100 h-100 rounded-start-4' style='object-fit: cover; object-position: left center')
+              .col-12.col-lg-5.d-flex.align-items-center.justify-content-center
+                .tarjeta-overlay.tarjeta-overlay--derecha.tarjeta-overlay--white
+                  p.mb-3 La mejora continua implica:
+                  ul.list-unstyled.mb-1
+                    li.d-flex.align-items-start.mb-0
+                      i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                      span Análisis de resultados de verificación.
+                    li.d-flex.align-items-start.mb-0
+                      i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                      span Evaluación de tendencias.
+                    li.d-flex.align-items-start.mb-0
+                      i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                      span Implementación de acciones preventivas.
+                    li.d-flex.align-items-start.mb-0
+                      i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                      span Revisión por la dirección.
+
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-3.col-lg-1.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema5/img_20.svg', class="img-fluid p-4") 
       .col-12.col-lg-9(data-aos="zoom-in-right")
@@ -226,12 +247,12 @@
     .mb-0 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema5/img_21.png', class="img-fluid") 
       .col-12.col-lg-9(data-aos="zoom-in-right")
         .row.justify-content-center.align-items-center.mb-5
-          .col-12.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
+          .col-3.col-lg-1.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in-right")
             figure
               img(src='@/assets/curso/tema5/img_22.svg', class="img-fluid") 
           .col-12.col-lg-11(data-aos="zoom-in-right")

@@ -39,10 +39,44 @@
 
     .bg_img_21.mb-3
 
-      .bloque-texto-t.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
-        .bloque-texto-t__img.mb-0
-          img(src='@/assets/curso/tema6/img_5.png')
-
+    .bloque-texto-q.mb-5(data-aos="zoom-in-right")
+      .bloque-texto-q__img
+        figure
+          img(src='@/assets/curso/tema6/img_5.png', class='img-fluid w-100')
+      .bloque-texto-q__cards.row.justify-content-center.align-items-center.g-3
+        .col-11.col-lg-4
+          .bloque-texto-q__texto
+            p.mb-3 Existen tres tipos principales de auditoría:
+            ul.list-unstyled.mb-0
+              li.d-flex.align-items-start.mb-1
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                span Auditoría interna.
+              li.d-flex.align-items-start.mb-1
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                span Auditoría de segunda parte (clientes).
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                span Auditoría de tercera parte (organismos certificadores o autoridades sanitarias).
+        .col-11.col-lg-4
+          .bloque-texto-q__texto
+            p.mb-3 La auditoría del APPCC debe evaluar:
+            ul.list-unstyled.mb-0
+              li.d-flex.align-items-start.mb-1
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                span Correcta aplicación de los siete principios.
+              li.d-flex.align-items-start.mb-1
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                span Actualización del análisis de peligros.
+              li.d-flex.align-items-start.mb-1
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                span Evidencia de validación y verificación.
+              li.d-flex.align-items-start.mb-1
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                span Registros de monitoreo.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                span Gestión de acciones correctivas.
+      
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-2.d-lg-block.d-none(data-aos="zoom-in-right")
           figure
@@ -71,7 +105,31 @@
     
     .bg_img_22.mb-3
 
-      ///falta
+      .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-right")
+        .col-10.position-relative.px-0
+          .row.align-items-stretch.g-0
+            .col-12.col-lg-7
+              figure.mb-0
+                img(src='@/assets/curso/tema5/img_19.png', class='img-fluid w-100 h-100 rounded-start-4' style='object-fit: cover; object-position: left center')
+            .col-12.col-lg-5.d-flex.align-items-center.justify-content-center
+              .tarjeta-overlay.tarjeta-overlay--derecha.tarjeta-overlay--white
+                p.mb-3 Los indicadores relevantes incluyen:
+                ul.list-unstyled.mb-1
+                  li.d-flex.align-items-start.mb-0
+                    i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                    span Porcentaje de cumplimiento de monitoreos en PCC.
+                  li.d-flex.align-items-start.mb-0
+                    i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                    span Número de desviaciones detectadas.
+                  li.d-flex.align-items-start.mb-0
+                    i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                    span Tiempo promedio de cierre de acciones correctivas.
+                  li.d-flex.align-items-start.mb-0
+                    i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                    span Resultados microbiológicos.
+                  li.d-flex.align-items-start.mb-0
+                    i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                    span Hallazgos de auditoría.
 
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-10.mb-3(data-aos="zoom-in-right") 
@@ -89,7 +147,7 @@
     .bg_img_23.mb-3
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+        .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/tema6/img_13.png', class="img-fluid") 
         .col-12.col-lg-9(data-aos="zoom-in-right")
@@ -103,13 +161,34 @@
                   figure
                     img(src='@/assets/curso/tema6/img_14.svg', class="cita-decorada__imagen-flotante-1")
           .row.justify-content-center.align-items-center.mb-5
-            .col-12.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
+            .col-3.col-lg-1.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in-right")
               figure
                 img(src='@/assets/curso/tema6/img_16.svg', class="img-fluid") 
             .col-12.col-lg-11(data-aos="zoom-in-right")
               p.mb-0 El INVIMA (2023) enfatiza que la responsabilidad primaria de la inocuidad recae sobre el productor, no sobre la autoridad sanitaria. La inspección es un mecanismo de control externo que verifica el cumplimiento normativo.
-    
-      ///flata componente
+
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
+        .col-10.position-relative.px-0
+          .row.align-items-stretch.g-0
+            .col-12.col-lg-5.d-flex.align-items-center.justify-content-center.order-2.order-lg-1
+              .tarjeta-overlay.tarjeta-overlay--izquierda.tarjeta-overlay--white
+                p.mb-3 Desde la perspectiva técnica, la empresa debe estar preparada para:
+                ul.list-unstyled.mb-1
+                  li.d-flex.align-items-start.mb-0
+                    i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                    span Presentar plan APPCC actualizado.
+                  li.d-flex.align-items-start.mb-0
+                    i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                    span Evidenciar registros de monitoreo.
+                  li.d-flex.align-items-start.mb-0
+                    i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                    span Demostrar validación y verificación.
+                  li.d-flex.align-items-start.mb-0
+                    i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
+                    span Mostrar resultados de análisis de laboratorio.
+            .col-12.col-lg-7.order-1.order-lg-2
+              figure.mb-0
+                img(src='@/assets/curso/tema6/img_17.png', class='img-fluid w-100 h-100 rounded-start-4' style='object-fit: cover; object-position: left center')
 
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-10.mb-3(data-aos="zoom-in-right") 
@@ -122,12 +201,12 @@
     .mb-0 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema6/img_18.png', class="img-fluid") 
       .col-12.col-lg-9(data-aos="zoom-in-right")
         .row.justify-content-center.align-items-center.mb-3
-          .col-12.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
+          .col-3.col-lg-1.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in-right")
             figure
               img(src='@/assets/curso/tema6/img_16.svg', class="img-fluid") 
           .col-12.col-lg-11(data-aos="zoom-in-right")
@@ -179,7 +258,7 @@
         .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="zoom-in-right")
           .tarjeta.color-secundario-cv.p-4.rounded-0.mb-3
             .row.justify-content-center.align-items-center.mb-0
-              .col-12.col-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+              .col-3.col-lg-2.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema6/img_22.svg', class="img-fluid") 
               .col-12.col-lg-10(data-aos="zoom-in-right")
