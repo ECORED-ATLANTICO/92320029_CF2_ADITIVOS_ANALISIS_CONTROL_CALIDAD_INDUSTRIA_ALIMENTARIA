@@ -25,7 +25,7 @@
                   figure
                     img(src="@/assets/curso/tema3/img_3.svg", class="img-fluid")
                 .col-12.col-lg-12
-                  p.mb-3 El Codex Alimentarius (2023) establece que antes de aplicar un plan APPCC, toda organización debe asegurar la implementación de prácticas generales de higiene que controlen peligros comunes del ambiente productivo. Esto significa que el APPCC no sustituye las Buenas Prácticas de Manufactura, sino que se apoya en ellas.
+                  p.mb-3 El <em>Codex Alimentarius</em> (2023) establece que antes de aplicar un plan APPCC, toda organización debe asegurar la implementación de prácticas generales de higiene que controlen peligros comunes del ambiente productivo. Esto significa que el APPCC no sustituye las Buenas Prácticas de Manufactura, sino que se apoya en ellas.
         .col-12.col-md-7.col-lg-7.col-xl-6.d-flex.mb-3.mb-xl-0.mb-3(data-aos="flip-left")
           .w-100.d-flex.flex-column
             .tarjeta--blanca-2.p-3.h-100
@@ -168,7 +168,7 @@
               p.mb-0 la norma ISO 22000 integra los Programas de Prerrequisitos (BPM y otros) con el enfoque sistemático del APPCC para identificar, evaluar y controlar peligros. Además, incorpora principios de gestión de la calidad.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-8.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema3/img_17.png', class="img-fluid") 
       .col-12.col-lg-8(data-aos="zoom-in-right")
@@ -249,10 +249,10 @@
           figure(data-aos="flip-left")
             img(src='@/assets/curso/tema3/img_22.svg', class="img-fluid d-none d-lg-block").mb-5
             img(src='@/assets/curso/tema3/img_23.svg', class="img-fluid d-block d-lg-none").mb-5
-            figcaption Adaptado del Codex Alimentarius (2023). 
+            figcaption Adaptado del <em>Codex Alimentarius</em> (2023). 
 
     .row.justify-content-center.align-items-center.mb-3 
-      .col-12.col-lg-1.mb-3.mb-lg-0(data-aos="flip-left")
+      .col-12.col-lg-1.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="flip-left")
         figure
           img(src='@/assets/curso/tema3/img_24.png', class="img-fluid p-2")
       .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
@@ -261,7 +261,7 @@
       
     .bg_img_14.mb-3
 
-      p.mb-0(data-aos="zoom-in-right") El Codex Alimentarius (2023) señala que los procedimientos de limpieza y desinfección deben validarse científicamente para asegurar que eliminan o reducen los peligros a niveles aceptables.
+      p.mb-0(data-aos="zoom-in-right") El <em>Codex Alimentarius</em> (2023) señala que los procedimientos de limpieza y desinfección deben validarse científicamente para asegurar que eliminan o reducen los peligros a niveles aceptables.
 
       .row.justify-content-center.align-items-center.mb-5 
         .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")

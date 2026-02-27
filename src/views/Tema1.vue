@@ -87,7 +87,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p Nota. Adaptado de FAO (2023) y Codex Alimentarius (2023).
+          p Nota. Adaptado de FAO (2023) y <em>Codex Alimentarius</em> (2023).
         thead
           tr
             th.col-auto.col-lg-2 Dimensión
@@ -150,7 +150,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p Adaptado de FAO (2023) y Codex Alimentarius (2023).
+          p Adaptado de FAO (2023) y <em>Codex Alimentarius</em> (2023).
         thead
           tr
             th.col-auto.col-lg-2 Aspecto

@@ -71,7 +71,7 @@ export default {
           },
           {
             numero: '2.2',
-            titulo: 'Codex Alimentarius y estándares internacionales',
+            titulo: '<em>Codex Alimentarius</em> y estándares internacionales',
             hash: 't_2_2',
           },
           {
@@ -232,11 +232,13 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
+      /*
       {
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
       },
+      */
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -269,14 +271,126 @@ export default {
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Aditivo alimentario',
+      significado:
+        'Sustancia que se añade intencionalmente a un alimento con fines tecnológicos (conservación, color, sabor, textura), sin propósito nutritivo primario, y cuya seguridad está científicamente evaluada.',
+    },
+    {
+      termino: 'Análisis de Peligros',
+      significado:
+        'Proceso sistemático de identificación y evaluación de peligros biológicos, químicos y físicos que pueden afectar la inocuidad de un alimento.',
+    },
+    {
+      termino: 'APPCC (Análisis de Peligros y Puntos Críticos de Control)',
+      significado:
+        'Sistema preventivo de gestión que identifica, evalúa y controla peligros significativos para la inocuidad alimentaria.',
+    },
+    {
+      termino: 'Análisis de Riesgo',
+      significado:
+        'Enfoque científico compuesto por evaluación, gestión y comunicación del riesgo para proteger la salud pública.',
+    },
+    {
+      termino: 'Buenas Prácticas de Manufactura (BPM)',
+      significado:
+        'Conjunto de condiciones y prácticas higiénico-sanitarias básicas que constituyen la base de los sistemas de inocuidad.',
+    },
+    {
+      termino: 'Calidad alimentaria',
+      significado:
+        'Grado de cumplimiento de requisitos técnicos, normativos y sensoriales que garantizan que un alimento es apto para el consumo humano y satisface expectativas establecidas.',
+    },
+    {
+      termino: 'Contaminación cruzada',
+      significado:
+        'Transferencia de agentes contaminantes desde una fuente hacia un alimento, ya sea por contacto directo o indirecto.',
+    },
+    {
+      termino: 'Cultura de Inocuidad',
+      significado:
+        'Conjunto de valores, creencias y comportamientos compartidos dentro de una organización que determinan su compromiso real con la seguridad alimentaria.',
+    },
+    {
+      termino: 'Evaluación del riesgo',
+      significado:
+        'Componente científico del análisis de riesgo que estima la probabilidad y severidad de efectos adversos en la salud.',
+    },
+    {
+      termino: 'Gestión del riesgo',
+      significado:
+        'Proceso mediante el cual se toman decisiones regulatorias o técnicas para controlar riesgos identificados.',
+    },
+    {
+      termino: 'Inocuidad alimentaria',
+      significado:
+        'Condición que asegura que los alimentos no representan riesgo para la salud del consumidor bajo condiciones normales de consumo.',
+    },
+    {
+      termino: 'Límite crítico',
+      significado:
+        'Valor máximo o mínimo que debe cumplirse en un punto crítico de control para prevenir o eliminar un peligro.',
+    },
+    {
+      termino: 'Medida de control',
+      significado:
+        'Acción o actividad que puede utilizarse para prevenir, eliminar o reducir un peligro a un nivel aceptable.',
+    },
+    {
+      termino: 'Monitoreo',
+      significado:
+        'Secuencia planificada de observaciones o mediciones para evaluar si un punto crítico de control se mantiene dentro de los límites establecidos.',
+    },
+    {
+      termino: 'Peligro',
+      significado:
+        'Agente biológico, químico o físico con potencial de causar un efecto adverso en la salud.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'Capacidad para seguir el movimiento de un alimento o ingrediente a través de todas las etapas de producción, transformación y distribución.',
+    },
+    {
+      termino: 'Validación',
+      significado:
+        'Obtención de evidencia objetiva que demuestra que las medidas de control implementadas son eficaces para gestionar los peligros identificados.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Codex Alimentarius Commission. (2023). <em>General principles of food hygiene CXC 1-1969 (Rev. 2023)</em>. FAO/WHO.',
+      link: 'https://www.fao.org/fao-who-codexalimentarius',
+    },
+    {
+      referencia:
+        'Food and Agriculture Organization of the United Nations (FAO). (2003). <em>Sistema de calidad e inocuidad de los alimentos: Manual de capacitación sobre higiene de los alimentos y el sistema de análisis de peligros y de puntos críticos de control (APPCC)</em>. FAO.',
+      link: 'https://www.fao.org/4/W8088S/W8088S00.htm',
+    },
+    {
+      referencia:
+        'Food and Agriculture Organization of the United Nations (FAO) & World Health Organization (WHO). (2022). <em>Food safety risk analysis: A guide for national food safety authorities</em>. FAO.',
+      link: 'https://www.fao.org/home/en',
+    },
+    {
+      referencia:
+        'Fundación para la Seguridad y Calidad Alimentaria. (2018). <em>Guía de autocontrol en establecimientos alimentarios</em>. Universidad de Salamanca.',
+      link: 'https://seguridadycalidadalimentaria.fundacionusal.es',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA). (2023). <em>Lineamientos técnicos de buenas prácticas de manufactura y sistemas de autocontrol sanitario</em>.',
+      link: 'https://www.invima.gov.co',
+    },
+    {
+      referencia:
+        'International Organization for Standardization. (2023). <em>ISO 22000:2023 Sistemas de gestión de la inocuidad de los alimentos - Requisitos para cualquier organización de la cadena alimentaria</em>. ISO.',
       link: '',
+    },
+    {
+      referencia:
+        'Organización Panamericana de la Salud (OPS). (2022). <em>Inocuidad de los alimentos y salud pública</em>.',
+      link: 'https://www.paho.org',
     },
   ],
   creditos: [
@@ -284,14 +398,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Miguel de Jesús Paredes Maestre',
+          cargo: 'Responsable de la línea de producción',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -299,9 +414,29 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Érika Alejandra Beltrán Cuesta',
+          cargo: 'Evaluadora de calidad instruccional',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'Carlos Eduardo Orozco Osorio',
+          cargo: 'Desarrollador de contenidos',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'Ebert Arcila Jaramillo',
+          cargo: 'E-pedagogo instruccional',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'Daivid Johan Cortés Giraldo',
+          cargo: 'Evaluador de contenidos',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'María Fernanda Morales Angulo',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -309,19 +444,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Luis Gabriel Urueta',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Alexander Donado Molinares',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Nelson Iván Vera Briceño',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -329,14 +464,24 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Luz Karime Amaya Cabra',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adié Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Karine Isabel Ospino Fritz',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },

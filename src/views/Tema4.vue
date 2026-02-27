@@ -26,7 +26,7 @@
       .h2(data-aos="fade-right") 4.1 Etapas preliminares
     .mb-0 
 
-    p.mb-3 Antes de aplicar los siete principios del APPCC, es obligatorio desarrollar etapas preparatorias que permitan estructurar el análisis con rigurosidad técnica. El Codex Alimentarius (2023) establece que estas actividades garantizan coherencia entre el proceso real y el plan documentado. 
+    p.mb-3 Antes de aplicar los siete principios del APPCC, es obligatorio desarrollar etapas preparatorias que permitan estructurar el análisis con rigurosidad técnica. El <em>Codex Alimentarius</em> (2023) establece que estas actividades garantizan coherencia entre el proceso real y el plan documentado. 
     p.mb-5 Las etapas preliminares incluyen:
  
     TabsA.mb-0.tarjeta-tabs-a.color-acento-botones-cv.uno(data-aos="zoom-in-right")
@@ -179,7 +179,7 @@
     .bg_img_16.mb-3
 
       .row.justify-content-center.align-items-center.mb-5 
-        .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
+        .col-8.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
           figure
             img(src='@/assets/curso/tema4/img_12.png', class="img-fluid")
         .col-12.col-lg-8

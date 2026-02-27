@@ -82,7 +82,7 @@
           figure
             img(src='@/assets/curso/tema6/img_7.svg', class="img-fluid")
         .col-12.col-lg-10.mb-0(data-aos="zoom-in-right")
-          p.mb-3 El Codex Alimentarius (2023) señala que la revisión periódica del plan APPCC permite identificar oportunidades de mejora y prevenir fallas sistémicas.
+          p.mb-3 El <em>Codex Alimentarius</em> (2023) señala que la revisión periódica del plan APPCC permite identificar oportunidades de mejora y prevenir fallas sistémicas.
           .tarjeta.color-secundario-cv.p-4.rounded-0.mb-3
             p.mb-0 Desde el enfoque pedagógico SENA, el aprendiz debe comprender que la auditoría no es un mecanismo sancionatorio, sino una herramienta técnica de fortalecimiento del sistema.
 
@@ -147,7 +147,7 @@
     .bg_img_23.mb-3
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+        .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/tema6/img_13.png', class="img-fluid") 
         .col-12.col-lg-9(data-aos="zoom-in-right")
@@ -201,7 +201,7 @@
     .mb-0 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-8.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema6/img_18.png', class="img-fluid") 
       .col-12.col-lg-9(data-aos="zoom-in-right")

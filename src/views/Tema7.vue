@@ -37,7 +37,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
-            img(src='@/assets/curso/tema7/img_5.svg', class="img-fluid p-4") 
+            img(src='@/assets/curso/tema7/img_5.svg', class="img-fluid p-4").d-none.d-lg-block 
         .col-12.col-lg-9(data-aos="zoom-in-right")
           p.mb-0 El desafío no radica únicamente en adoptar tecnología, sino en garantizar su adecuada validación, integración con los prerrequisitos y fortalecimiento de las competencias del talento humano para asegurar decisiones basadas en evidencia y orientadas a la protección de la salud pública.
 
@@ -64,14 +64,14 @@
     .mb-0 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-10.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema7/img_6.png', class="img-fluid") 
       .col-12.col-lg-9(data-aos="zoom-in-right")
         .row.justify-content-center.align-items-center.mb-5
           .col-12.col-lg-1.mb-3.mb-lg-0(data-aos="zoom-in-right")
             figure
-              img(src='@/assets/curso/tema7/img_7.svg', class="img-fluid") 
+              img(src='@/assets/curso/tema7/img_7.svg', class="img-fluid").d-none.d-lg-block 
           .col-12.col-lg-11(data-aos="zoom-in-right")
             p.mb-0 El entorno global presenta nuevos factores de riesgo que impactan directamente los sistemas de inocuidad: el cambio climático, la ampliación de cadenas de suministro internacionales, la aparición de contaminantes emergentes y una ciudadanía cada vez más informada y exigente. Estos escenarios incrementan la complejidad del análisis de riesgo y demandan mayor rigurosidad en la trazabilidad, el control de proveedores y la gestión técnica de aditivos alimentarios.
         .cita-decorada.mb-3(data-aos="zoom-in-right")

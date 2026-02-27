@@ -22,7 +22,7 @@
       .mb-0 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="flip-left")
+      .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="flip-left")
         figure
           img(src='@/assets/curso/tema5/img_3.png', class="img-fluid")
       .col-12.col-lg-9
@@ -31,7 +31,7 @@
           blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3
             .row.justify-content-center.align-items-center
               .col-12.col-lg-10
-                p.cita-decorada__texto.mb-2.p-3 Según el Codex Alimentarius (2023), la validación debe realizarse antes de la implementación completa del plan APPCC o cuando se presenten cambios significativos en el proceso, formulación o tecnología. La validación responde a la pregunta técnica: ¿el control definido realmente funciona?
+                p.cita-decorada__texto.mb-2.p-3 Según el <em>Codex Alimentarius</em> (2023), la validación debe realizarse antes de la implementación completa del plan APPCC o cuando se presenten cambios significativos en el proceso, formulación o tecnología. La validación responde a la pregunta técnica: ¿el control definido realmente funciona?
               .col-2.col-lg-1.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema5/img_5.svg', class="cita-decorada__imagen-flotante-1")
@@ -157,7 +157,7 @@
     .mb-0 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-10.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema5/img_13.png', class="img-fluid") 
       .col-12.col-lg-9(data-aos="zoom-in-right")
@@ -247,7 +247,7 @@
     .mb-0 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
+      .col-10.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema5/img_21.png', class="img-fluid") 
       .col-12.col-lg-9(data-aos="zoom-in-right")

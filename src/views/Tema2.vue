@@ -13,7 +13,7 @@
         .bloque-texto-t__img.mb-0
           img(src='@/assets/curso/tema2/img_2.png')
         .bloque-texto-t__texto.col-9.mb-0
-          p.mb-0 El sistema APPCC surge como respuesta a la necesidad de garantizar la inocuidad alimentaria mediante un enfoque preventivo basado en evidencia científica. Su adopción global se ha fortalecido tras su incorporación en los lineamientos del Codex Alimentarius.
+          p.mb-0 El sistema APPCC surge como respuesta a la necesidad de garantizar la inocuidad alimentaria mediante un enfoque preventivo basado en evidencia científica. Su adopción global se ha fortalecido tras su incorporación en los lineamientos del <em>Codex Alimentarius</em>.
 
       .tarjeta.color-secundario-cv.p-3.rounded-0.mb-3
         .row.justify-content-center.align-items-center.mb-0
@@ -50,7 +50,7 @@
             figure
               img(src='@/assets/curso/tema2/img_6.png', class="img-fluid p-2")
           .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
-            p.mb-0 Tras su adopción y estandarización por la Comisión del Codex Alimentarius, se ha convertido en el referente internacional para la gestión de la inocuidad alimentaria. Actualmente, el cumplimiento del APPCC es un requisito fundamental en los marcos regulatorios tanto nacionales como internacionales.
+            p.mb-0 Tras su adopción y estandarización por la Comisión del <em>Codex Alimentarius</em>, se ha convertido en el referente internacional para la gestión de la inocuidad alimentaria. Actualmente, el cumplimiento del APPCC es un requisito fundamental en los marcos regulatorios tanto nacionales como internacionales.
         .tarjeta.color-secundario-cv.p-3.rounded-0.mb-3(data-aos="zoom-in-right")
            p.mb-0 El sistema APPCC se fundamenta en 3 pilares técnicos. A diferencia de los sistemas reactivos, el APPCC no espera a que ocurra una desviación o un brote para actuar; identifica previamente los puntos del proceso donde pueden generarse los riesgos y establece las medidas de control verificables.
 
@@ -64,9 +64,9 @@
           figure(data-aos="flip-left")
             img(src='@/assets/curso/tema2/img_8.svg', class="img-fluid d-none d-lg-block").mb-5
             img(src='@/assets/curso/tema2/img_9.svg', class="img-fluid d-block d-lg-none").mb-5
-            figcaption Nota. Adaptado del Codex Alimentarius (2023).
+            figcaption Nota. Adaptado del <em>Codex Alimentarius</em> (2023).
         
-      p.mb-3 De igual manera, la comisión del Codex Alimentarius ha establecido siete principios fundamentales y estandarizados a nivel internacional para el sistema APPCC:
+      p.mb-3 De igual manera, la comisión del <em>Codex Alimentarius</em> ha establecido siete principios fundamentales y estandarizados a nivel internacional para el sistema APPCC:
     
     .titulo-sexto.color-acento-botones(data-aos="zoom-in-right")
       h5 Tabla 3.
@@ -74,7 +74,7 @@
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
-          p Nota. Adaptado del Codex Alimentarius (2023).
+          p Nota. Adaptado del <em>Codex Alimentarius</em> (2023).
         thead
           tr
             th.col-auto.col-lg-auto Principios
@@ -105,7 +105,7 @@
     Separador
 
     #t_2_2.titulo-segundo.color-primario
-      .h2(data-aos="fade-right") 2.2 Codex Alimentarius y estándares internacionales
+      .h2(data-aos="fade-right") 2.2 <em>Codex Alimentarius</em> y estándares internacionales
     .mb-0 
 
     .bg_img_8.mb-3
@@ -118,7 +118,7 @@
                 figure
                   img(src='@/assets/curso/tema2/img_11.png', class="img-fluid ")
               .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
-                p.mb-0 El Codex Alimentarius, desarrollado por la FAO y la OMS, establece directrices internacionales orientadas a proteger la salud del consumidor y garantizar prácticas leales en el comercio de alimentos. Dentro de sus principios generales de higiene, el análisis de riesgo constituye el fundamento científico sobre el cual se estructuran los sistemas preventivos como el APPCC. Este enfoque permite tomar decisiones técnicas basadas en evidencia, priorizando los peligros que representan mayor impacto para la salud pública.
+                p.mb-0 El <em>Codex Alimentarius</em>, desarrollado por la FAO y la OMS, establece directrices internacionales orientadas a proteger la salud del consumidor y garantizar prácticas leales en el comercio de alimentos. Dentro de sus principios generales de higiene, el análisis de riesgo constituye el fundamento científico sobre el cual se estructuran los sistemas preventivos como el APPCC. Este enfoque permite tomar decisiones técnicas basadas en evidencia, priorizando los peligros que representan mayor impacto para la salud pública.
           p.mb-0 El análisis de riesgo constituye el fundamento científico del sistema APPCC y comprende tres componentes interrelacionados: 
         .col-12.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
           figure(data-aos="zoom-out-up")
