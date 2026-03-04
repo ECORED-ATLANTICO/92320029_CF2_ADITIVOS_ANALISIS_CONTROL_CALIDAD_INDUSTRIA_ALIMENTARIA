@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Validación, verificación y mejora continua del Sistema APPCC
+      h1 Validación, verificación y mejora continua del CC
 
     .bg_img_17.mb-3
 
@@ -18,7 +18,7 @@
       Separador
 
       #t_5_1.titulo-segundo.color-primario
-        .h2(data-aos="fade-right") 5.1 Validación del Sistema APPCC
+        .h2(data-aos="fade-right") 5.1 Validación del sistema APPCC
       .mb-0 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -46,11 +46,11 @@
               figure
                 img(src='@/assets/curso/tema5/img_7.svg', class="img-fluid")
             .tarjeta.color-primario-cv.p-3(x="36%" y="11%" numero="")
-              p <B>Estudios científicos reconocidos:</B> Evidencia experimental publicada en fuentes confiables que demuestre que las medidas de control son eficaces para reducir o eliminar los peligros identificados. 
+              p <B>Estudios científicos reconocidos:</B> evidencia experimental publicada en fuentes confiables que demuestre que las medidas de control son eficaces para reducir o eliminar los peligros identificados. 
             .tarjeta.color-primario-cv.p-3(x="54.5%" y="41%" numero="")
-              p <B>Literatura técnica actualizada:</B> Documentación técnica vigente, guías sectoriales y referencias normativas que respalden la pertinencia y suficiencia de las medidas implementadas.
+              p <B>Literatura técnica actualizada:</B> documentación técnica vigente, guías sectoriales y referencias normativas que respalden la pertinencia y suficiencia de las medidas implementadas.
             .tarjeta.color-primario-cv.p-3(x="87%" y="23.5%" numero="")
-              p <B>Resultados de pruebas microbiológicas:</B> Análisis de laboratorio realizados bajo métodos validados que confirmen que el proceso logra los niveles de control microbiológico establecidos.
+              p <B>Resultados de pruebas microbiológicas:</B> análisis de laboratorio realizados bajo métodos validados que confirmen que el proceso logra los niveles de control microbiológico establecidos.
             .tarjeta.color-primario-cv.p-3(x="79.8%" y="69.5%" numero="")
               p <B>Ensayos de desafío (challenge tests), cuando aplique:</B> Estudios experimentales en los que se inocula intencionalmente un microorganismo objetivo para verificar la capacidad real del proceso de controlarlo en condiciones específicas.
     
@@ -70,7 +70,7 @@
     Separador
 
     #t_5_2.titulo-segundo.color-primario
-      .h2(data-aos="fade-right") 5.2 Verificación del Sistema APPCC
+      .h2(data-aos="fade-right") 5.2 Verificación del sistema APPCC
     .mb-0 
     
     .row.justify-content-center.align-items-center.mb-0
@@ -78,7 +78,7 @@
         figure
           img(src='@/assets/curso/tema5/img_9.svg', class="img-fluid p-4")
       .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
-        p.mb-3 La verificación tiene como propósito confirmar que el Sistema APPCC se implementa y mantiene conforme a lo planificado.
+        p.mb-3 La verificación tiene como propósito confirmar que el sistema APPCC se implementa y mantiene conforme a lo planificado.
         p.mb-0 El Codex (2023) señala que la verificación debe incluir:
 
     .bg_img_19.mb-3
@@ -90,13 +90,13 @@
               figure
                 img(src='@/assets/curso/tema5/img_11.svg', class="img-fluid")
             .tarjeta.color-primario-cv.p-3(x="3.9%" y="27.8%" numero="")
-              p <B>Revisión de registros:</B> Análisis sistemático de los formatos y evidencias documentales para confirmar que el monitoreo y las acciones correctivas se ejecutaron conforme a lo planificado.
+              p <B>Revisión de registros:</B> análisis sistemático de los formatos y evidencias documentales para confirmar que el monitoreo y las acciones correctivas se ejecutaron conforme a lo planificado.
             .tarjeta.color-primario-cv.p-3(x="21.9%" y="10.7%" numero="")
-              p <B>Auditorías internas:</B> Evaluaciones periódicas e independientes del sistema APPCC para determinar su grado de implementación, conformidad y eficacia.
+              p <B>Auditorías internas:</B> evaluaciones periódicas e independientes del sistema APPCC para determinar su grado de implementación, conformidad y eficacia.
             .tarjeta.color-primario-cv.p-3(x="64.9%" y="10.5%" numero="")
-              p <B>Inspecciones de procesos:</B> Observación directa en planta para comprobar que las prácticas operativas y los controles se aplican según los procedimientos establecidos.
+              p <B>Inspecciones de procesos:</B> observación directa en planta para comprobar que las prácticas operativas y los controles se aplican según los procedimientos establecidos.
             .tarjeta.color-primario-cv.p-3(x="90.8%" y="5%" numero="")
-              p <B>Ensayos microbiológicos:</B> Análisis de producto, superficies o ambiente que permiten corroborar objetivamente el desempeño sanitario del sistema.
+              p <B>Ensayos microbiológicos:</B> análisis de producto, superficies o ambiente que permiten corroborar objetivamente el desempeño sanitario del sistema.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-9.order-2.order-lg-1
@@ -116,7 +116,7 @@
 
     .titulo-sexto.color-acento-botones(data-aos="zoom-in-right")
       h5 Tabla 7.
-      |  Diferencias entre validación y verificación en el Sistema APPCC
+      |  Diferencias entre validación y verificación en el sistema APPCC
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
@@ -166,7 +166,7 @@
             figure
               img(src='@/assets/curso/tema5/img_14.svg', class="img-fluid") 
           .col-12.col-lg-11(data-aos="zoom-in-right")
-            p.mb-3 El Sistema APPCC no es estático. Debe actualizarse cuando existan:
+            p.mb-3 El sistema APPCC no es estático. Debe actualizarse cuando existan:
             ul.list-unstyled.mb-3
               li.d-flex.align-items-start.mb-0
                 i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Prerrequisitos del Sistema APPCC
+      h1 Prerrequisitos del sistema APPCC
     
     .bg_img_10.mb-3
       .tarjeta--bg-img.color-primario-cv.rounded-4.p-0.mb-5.overflow-hidden(data-aos="zoom-in-right")
@@ -120,19 +120,19 @@
             th.col-auto.col-lg-auto Requisitos Ampliados
         tbody
           tr
-            td.text-start Instalaciones y Ubicación.
+            td.text-start Instalaciones y ubicación.
             td.text-start Deben estar ubicadas en un entorno seguro y construidas de forma que se minimice el riesgo de contaminación. El diseño interno debe permitir un flujo de trabajo lógico (flujo hacia adelante) y evitar la contaminación cruzada. Los materiales deben ser resistentes, fáciles de limpiar y desinfectar.
           tr
-            td.text-start Equipos y Utensilios.
+            td.text-start Equipos y utensilios.
             td.text-start Fabricados en materiales no tóxicos y que favorezcan la higiene. Deben ser fáciles de desmontar y resistir la acción de productos químicos y altas temperaturas para un correcto saneamiento. Es fundamental que formen parte del programa de limpieza y desinfección.
           tr
-            td.text-start Higiene del Personal.
+            td.text-start Higiene del personal.
             td.text-start Requiere una certificación médica que acredite la aptitud para manipular alimentos. Implica una higiene y presentación personal impecable y controles de higiene periódicos. La capacitación continua en Buenas Prácticas de Higiene es responsabilidad de la empresa.
           tr
-            td.text-start Control de Materias Primas.
+            td.text-start Control de materias primas.
             td.text-start Exige un mecanismo de trazabilidad eficiente desde la recepción hasta la entrega del producto. Todas las materias primas deben pasar por un control e inspección riguroso para asegurar la ausencia de microorganismos, tóxicos o elementos extraños.
           tr
-            td.text-start Saneamiento y Control de Plagas.
+            td.text-start Saneamiento y control de plagas.
             td.text-start Implementación de Procedimientos Operativos Estandarizados de Saneamiento (POES) o Saneamiento Básico, que incluyen la gestión de residuos y el control integral de plagas.
 
     .cita-decorada.mb-5(data-aos="zoom-in-right")
@@ -183,7 +183,7 @@
         ul.list-unstyled.mb-1
           li.d-flex.align-items-start.mb-0
             i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
-            span <B>Mejora de la Gestión de Calidad:</B> fortalecen los sistemas internos de calidad y la comunicación dentro de la organización.
+            span <B>Mejora de la gestión de calidad:</B> fortalecen los sistemas internos de calidad y la comunicación dentro de la organización.
           li.d-flex.align-items-start.mb-0
             i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
             span <B>Eficiencia Operativa:</B> disminuyen los costos asociados a productos no conformes, aumentan la eficiencia y permiten la estandarización de procesos.
@@ -249,7 +249,7 @@
           figure(data-aos="flip-left")
             img(src='@/assets/curso/tema3/img_22.svg', class="img-fluid d-none d-lg-block").mb-5
             img(src='@/assets/curso/tema3/img_23.svg', class="img-fluid d-block d-lg-none").mb-5
-            figcaption Adaptado del <em>Codex Alimentarius</em> (2023). 
+            figcaption Nota. Adaptado del <em>Codex Alimentarius</em> (2023). 
 
     .row.justify-content-center.align-items-center.mb-3 
       .col-12.col-lg-1.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="flip-left")
@@ -342,7 +342,7 @@
     
     .titulo-sexto.color-acento-botones(data-aos="zoom-in-right")
       h5 Tabla 5.
-      |  Programas prerrequisito clave en el Sistema APPCC
+      |  Programas prerrequisito clave en el sistema APPCC
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
@@ -361,7 +361,7 @@
               ul.list-unstyled.mb-1
                 li.d-flex.align-items-start.mb-0
                   i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
-                  span Inspección visual
+                  span Inspección visual.
                 li.d-flex.align-items-start.mb-0
                   i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
                   span Pruebas microbiológicas de las superficies.
@@ -415,7 +415,7 @@
               ul.list-unstyled.mb-1
                 li.d-flex.align-items-start.mb-0
                   i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
-                  span Permanente
+                  span Permanente.
                 li.d-flex.align-items-start.mb-0
                   i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
                   span Documentado.

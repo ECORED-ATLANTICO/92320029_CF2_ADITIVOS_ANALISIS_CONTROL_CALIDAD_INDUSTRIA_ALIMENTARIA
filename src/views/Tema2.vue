@@ -26,7 +26,7 @@
     Separador
 
     #t_2_1.titulo-segundo.color-primario
-      .h2(data-aos="fade-right") 2.1 Evolución del Sistema APPCC
+      .h2(data-aos="fade-right") 2.1 Evolución del sistema APPCC
     .mb-0 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -233,7 +233,7 @@
         .row.justify-content-center.align-items-center.mb-0
           .col-12.col-lg-8.order-2.order-lg-1(data-aos='zoom-in-right')
             h5.mb-3 Ejemplo contextualizado.
-            p.mb-3 <B>Caso:</B> Planta de productos lácteos
+            p.mb-3 <B>Caso:</B> planta de productos lácteos
             p.mb-3 Durante la auditoría sanitaria se evidencia ausencia de análisis formal de peligros en el proceso de pasteurización. Aunque la empresa cumple con BPM, no ha definido límites críticos ni registros de monitoreo.
             .tarjeta.color-primario-cv.p-3.rounded-0.mb-3(data-aos="zoom-in-right")
               p.mb-0 <B>Conclusión técnica:</B> existe cumplimiento parcial normativo, pero ausencia de sistema APPCC formal incrementa riesgo de desviaciones no controladas.

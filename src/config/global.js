@@ -107,7 +107,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Aplicación práctica del Sistema APPCC',
+        titulo: 'Aplicación práctica del sistema APPCC',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -125,12 +125,12 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Validación, verificación y mejora continua del Sistema APPCC',
+        titulo: 'Validación, verificación y mejora continua del sistema APPCC',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '5.1',
-            titulo: 'Validación del Sistema APPCC',
+            titulo: 'Validación del sistema APPCC',
             hash: 't_5_1',
           },
           {
@@ -168,7 +168,7 @@ export default {
         subMenu: [
           {
             numero: '6.1',
-            titulo: 'Auditoría del Sistema APPCC',
+            titulo: 'Auditoría del sistema APPCC',
             hash: 't_6_1',
           },
           {
@@ -276,7 +276,7 @@ export default {
         'Sustancia que se añade intencionalmente a un alimento con fines tecnológicos (conservación, color, sabor, textura), sin propósito nutritivo primario, y cuya seguridad está científicamente evaluada.',
     },
     {
-      termino: 'Análisis de Peligros',
+      termino: 'Análisis de oeligros',
       significado:
         'Proceso sistemático de identificación y evaluación de peligros biológicos, químicos y físicos que pueden afectar la inocuidad de un alimento.',
     },
@@ -286,7 +286,7 @@ export default {
         'Sistema preventivo de gestión que identifica, evalúa y controla peligros significativos para la inocuidad alimentaria.',
     },
     {
-      termino: 'Análisis de Riesgo',
+      termino: 'Análisis de riesgo',
       significado:
         'Enfoque científico compuesto por evaluación, gestión y comunicación del riesgo para proteger la salud pública.',
     },

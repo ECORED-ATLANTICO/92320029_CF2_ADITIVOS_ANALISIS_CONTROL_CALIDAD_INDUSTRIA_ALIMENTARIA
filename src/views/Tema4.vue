@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Aplicación práctica del Sistema APPCC
+      h1 Aplicación práctica del sistema APPCC
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="zoom-in-right")
@@ -119,7 +119,7 @@
       .h2(data-aos="fade-right") 4.2 Aplicación de los siete principios del APPCC
     .mb-0 
 
-    p.mb-5 Para efectos formativos, se aplica el Sistema APPCC a un proceso de producción de leche pasteurizada.
+    p.mb-5 Para efectos formativos, se aplica el sistema APPCC a un proceso de producción de leche pasteurizada.
     
     .bg_img_15.mb-3
 
@@ -131,7 +131,7 @@
           figure(data-aos="flip-left")
             img(src='@/assets/curso/tema4/img_8.svg', class="img-fluid d-none d-lg-block").mb-5
             img(src='@/assets/curso/tema4/img_9.svg', class="img-fluid d-block d-lg-none").mb-5
-            figcaption Nota. SENA, 2026
+            figcaption Nota. SENA, 2026.
     
     .cita-decorada.mb-5(data-aos="zoom-in-right")
       blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-4
@@ -198,10 +198,10 @@
                   ul.list-unstyled.mb-3
                     li.d-flex.align-items-start.mb-0
                       i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
-                      span Temperatura mínima: 72 °C
+                      span Temperatura mínima: 72 °C.
                     li.d-flex.align-items-start.mb-0
                       i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
-                      span Tiempo mínimo: 15 segundos
+                      span Tiempo mínimo: 15 segundos.
                   span.mb-0 La ISO 22000:2023 establece que los límites deben ser medibles, verificables y documentados (ISO, 2023).
               .tarjeta--color-white.h-100
                 .tarjeta--18
@@ -284,7 +284,7 @@
           figure
             img(src='@/assets/curso/tema4/img_19.svg', class="img-fluid")
         .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
-          p.mb-0 En el proceso de producción de leche pasteurizada, la aplicación de los siete principios del Sistema APPCC permite identificar y controlar de manera sistemática los peligros biológicos, especialmente mediante la definición de la pasteurización como punto crítico de control, el establecimiento de límites de tiempo y temperatura, el monitoreo continuo y la verificación documentada del proceso. Este enfoque preventivo asegura la inocuidad del producto, fortalece el cumplimiento normativo y contribuye de manera directa a la protección de la salud pública.
+          p.mb-0 En el proceso de producción de leche pasteurizada, la aplicación de los siete principios del sistema APPCC permite identificar y controlar de manera sistemática los peligros biológicos, especialmente mediante la definición de la pasteurización como punto crítico de control, el establecimiento de límites de tiempo y temperatura, el monitoreo continuo y la verificación documentada del proceso. Este enfoque preventivo asegura la inocuidad del producto, fortalece el cumplimiento normativo y contribuye de manera directa a la protección de la salud pública.
 </template>
 
 <script>

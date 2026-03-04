@@ -13,7 +13,7 @@
           figure.p-0.m-0.h-100
               img(src='@/assets/curso/tema6/img_1.png', class="img-fluid w-100 h-100 object-fit-cover").p-0
         .col-12.col-lg-7.p-4
-          p.mb-0 La auditoría, evaluación del desempeño e inspección sanitaria constituyen mecanismos esenciales para garantizar la eficacia y cumplimiento del Sistema APPCC. Mientras la auditoría interna fortalece el control organizacional, la inspección sanitaria verifica el cumplimiento normativo externo. La gestión adecuada de no conformidades y el fortalecimiento de la cultura de inocuidad consolidan un sistema sostenible orientado a la protección de la salud pública.
+          p.mb-0 La auditoría, evaluación del desempeño e inspección sanitaria constituyen mecanismos esenciales para garantizar la eficacia y cumplimiento del sistema APPCC. Mientras la auditoría interna fortalece el control organizacional, la inspección sanitaria verifica el cumplimiento normativo externo. La gestión adecuada de no conformidades y el fortalecimiento de la cultura de inocuidad consolidan un sistema sostenible orientado a la protección de la salud pública.
 
     Separador
 
@@ -156,7 +156,7 @@
             blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3
               .row.justify-content-center.align-items-center
                 .col-12.col-lg-10
-                  p.cita-decorada__texto.mb-2.p-3 La Resolución 2674 de 2013 y demás disposiciones vigentes establecen requisitos obligatorios para establecimientos de alimentos. Estas inspecciones verifican cumplimiento de BMP, implementación del Sistema APPCC cuando aplique, condiciones higiénico-sanitarias, documentación y registros y control de trazabilidad. 
+                  p.cita-decorada__texto.mb-2.p-3 La Resolución 2674 de 2013 y demás disposiciones vigentes establecen requisitos obligatorios para establecimientos de alimentos. Estas inspecciones verifican cumplimiento de BMP, implementación del sistema APPCC cuando aplique, condiciones higiénico-sanitarias, documentación y registros y control de trazabilidad. 
                 .col-2.col-lg-1.d-none.d-lg-block
                   figure
                     img(src='@/assets/curso/tema6/img_14.svg', class="cita-decorada__imagen-flotante-1")
