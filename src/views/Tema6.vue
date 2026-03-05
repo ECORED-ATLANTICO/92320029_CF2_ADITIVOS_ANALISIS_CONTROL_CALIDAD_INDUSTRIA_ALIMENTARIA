@@ -105,11 +105,11 @@
     
     .bg_img_22.mb-3
 
-      .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-right")
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
         .col-10.position-relative.px-0
           .row.align-items-stretch.g-0
             .col-12.col-lg-7
-              figure.mb-0
+              figure.mb-4
                 img(src='@/assets/curso/tema5/img_19.png', class='img-fluid w-100 h-100 rounded-start-4' style='object-fit: cover; object-position: left center')
             .col-12.col-lg-5.d-flex.align-items-center.justify-content-center
               .tarjeta-overlay.tarjeta-overlay--derecha.tarjeta-overlay--white
@@ -150,6 +150,7 @@
         .col-12.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/tema6/img_13.png', class="img-fluid") 
+        
         .col-12.col-lg-9(data-aos="zoom-in-right")
           p.mb-3 En Colombia, la inspección sanitaria es ejercida por el Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA) y por las autoridades sanitarias territoriales.
           .cita-decorada.mb-3(data-aos="zoom-in-right")
@@ -157,9 +158,10 @@
               .row.justify-content-center.align-items-center
                 .col-12.col-lg-10
                   p.cita-decorada__texto.mb-2.p-3 La Resolución 2674 de 2013 y demás disposiciones vigentes establecen requisitos obligatorios para establecimientos de alimentos. Estas inspecciones verifican cumplimiento de BPM, implementación del sistema APPCC cuando aplique, condiciones higiénico-sanitarias, documentación y registros y control de trazabilidad. 
-                .col-2.col-lg-1.d-none.d-lg-block
+                .col-2.col-lg-2.d-none.d-lg-block
                   figure
                     img(src='@/assets/curso/tema6/img_14.svg', class="cita-decorada__imagen-flotante-1")
+
           .row.justify-content-center.align-items-center.mb-5
             .col-3.col-lg-1.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in-right")
               figure
@@ -172,7 +174,7 @@
           .row.align-items-stretch.g-0
             .col-12.col-lg-5.d-flex.align-items-center.justify-content-center.order-2.order-lg-1
               .tarjeta-overlay.tarjeta-overlay--izquierda.tarjeta-overlay--white
-                p.mb-3 Desde la perspectiva técnica, la empresa debe estar preparada para:
+                p.mb-2 Desde la perspectiva técnica, la empresa debe estar preparada para:
                 ul.list-unstyled.mb-1
                   li.d-flex.align-items-start.mb-0
                     i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
@@ -187,7 +189,7 @@
                     i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
                     span Mostrar resultados de análisis de laboratorio.
             .col-12.col-lg-7.order-1.order-lg-2
-              figure.mb-0
+              figure.mb-3
                 img(src='@/assets/curso/tema6/img_17.png', class='img-fluid w-100 h-100 rounded-start-4' style='object-fit: cover; object-position: left center')
 
       .row.justify-content-center.align-items-center.mb-5
@@ -276,15 +278,16 @@
                   li.d-flex.align-items-start.mb-0
                     i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
                     span Se prioriza formación continua.
+        
         .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="zoom-in-right")
           .cita-decorada.mb-3(data-aos="zoom-in-right")
             blockquote.cita-decorada__caja.cita-decorada__caja--fondo-5.p-5
               .row.justify-content-center.align-items-center
                 .col-2.col-lg-2.d-none.d-lg-block
                   figure
-                    img(src='@/assets/curso/tema6/img_14.svg', class="cita-decorada__imagen-flotante-1")
+                    img(src='@/assets/curso/tema6/img_23.svg', class="cita-decorada__imagen-flotante-1")
                 .col-12.col-lg-10
-                  p.cita-decorada__texto.mb-2.p-3 En el contexto formativo SENA, este enfoque integra la dimensión del “saber ser”, promoviendo responsabilidad profesional en el sector alimentario. 
+                  p.cita-decorada__texto.mb-2.p-2 En el contexto formativo SENA, este enfoque integra la dimensión del “saber ser”, promoviendo responsabilidad profesional en el sector alimentario. 
 </template>
 
 <script>
