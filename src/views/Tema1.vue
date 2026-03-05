@@ -239,12 +239,12 @@
             li.d-flex.align-items-start.mb-0
               i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
               span La salud pública se protege cuando ambas se gestionan de manera integrada y preventiva.
-        .col-12.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+        .col-10.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/tema1/img_21.png', class="img-fluid") 
       
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
+        .col-10.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/tema1/img_23.png', class="img-fluid")
         .col-12.col-lg-8

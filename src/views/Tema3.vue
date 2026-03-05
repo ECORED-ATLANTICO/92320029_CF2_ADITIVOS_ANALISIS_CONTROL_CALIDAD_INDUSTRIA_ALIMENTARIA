@@ -168,34 +168,55 @@
               p.mb-0 la norma ISO 22000 integra los Programas de Prerrequisitos (BPM y otros) con el enfoque sistemático del APPCC para identificar, evaluar y controlar peligros. Además, incorpora principios de gestión de la calidad.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-8.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-right")
-        figure
-          img(src='@/assets/curso/tema3/img_17.png', class="img-fluid") 
-      .col-12.col-lg-8(data-aos="zoom-in-right")
+
+      // TEXTO (primero en mobile)
+      .col-12.col-lg-8.order-1.order-lg-2(data-aos="zoom-in-right")
         .tarjeta.color-secundario-cv.p-3.rounded-0.mb-3
           .row.justify-content-center.align-items-center.mb-0
-            .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
+            .col-lg-1.d-lg-block.d-none
               figure
                 img(src='@/assets/curso/tema3/img_18.png', class="img-fluid p-2")
-            .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
+            .col-12.col-lg-11.mb-0
               p.mb-0 La certificación ISO 22000:2018 demuestra el compromiso de la organización con la inocuidad a lo largo de toda la cadena de suministro.
+            
         p.mb-3(data-aos="zoom-out-up") Además del enfoque preventivo, la implementación rigurosa de las BPM aporta beneficios clave para la organización y su mercado:
+        
         ul.list-unstyled.mb-1
           li.d-flex.align-items-start.mb-0
-            i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
-            span <B>Mejora de la gestión de calidad:</B> fortalecen los sistemas internos de calidad y la comunicación dentro de la organización.
+            i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;")
+            span 
+              b Mejora de la gestión de calidad:
+              |  fortalecen los sistemas internos de calidad y la comunicación dentro de la organización.
+
           li.d-flex.align-items-start.mb-0
-            i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
-            span <B>Eficiencia Operativa:</B> disminuyen los costos asociados a productos no conformes, aumentan la eficiencia y permiten la estandarización de procesos.
+            i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;")
+            span 
+              b Eficiencia Operativa:
+              |  disminuyen los costos asociados a productos no conformes, aumentan la eficiencia y permiten la estandarización de procesos.
+
           li.d-flex.align-items-start.mb-0
-            i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
-            span <B>Cumplimiento Normativo:</B> demuestran conformidad con los requisitos legales nacionales e internacionales.
+            i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;")
+            span 
+              b Cumplimiento Normativo:
+              |  demuestran conformidad con los requisitos legales nacionales e internacionales.
+
           li.d-flex.align-items-start.mb-0
-            i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
-            span <B>Acceso a Mercados:</B> cumplen con requisitos esenciales para la apertura y mantenimiento de mercados internacionales.
+            i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;")
+            span 
+              b Acceso a Mercados:
+              |  cumplen con requisitos esenciales para la apertura y mantenimiento de mercados internacionales.
+
           li.d-flex.align-items-start.mb-0
-            i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
-            span <B>Confianza del Consumidor:</B> generan confianza en los clientes y la sociedad, mejorando la imagen del producto y de la empresa.
+            i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;")
+            span 
+              b Confianza del Consumidor:
+              |  generan confianza en los clientes y la sociedad, mejorando la imagen del producto y de la empresa.
+
+
+      // IMAGEN (segunda en mobile)
+      .col-12.col-lg-4.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="zoom-in-right")
+        figure
+          img(src='@/assets/curso/tema3/img_17.png', class="img-fluid")
 
     .tarjeta.color-primario-cv.p-3.rounded-0.mb-3(data-aos="zoom-out-up")
       p.mb-0 Las Buenas Prácticas de Manufactura (BPM) constituyen la base de la cultura de inocuidad organizacional. Según la FAO y la OMS (2024), su eficacia depende del liderazgo y el compromiso directivo en la asignación de recursos y priorización estratégica.
@@ -268,7 +289,7 @@
           figure
             img(src='@/assets/curso/tema3/img_26.png', class="img-fluid")
         .col-12.col-lg-8
-          .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
+          .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta--color-white.h-100
                 .tarjeta--13
@@ -326,7 +347,7 @@
       .h2(data-aos="fade-right") 3.3 Trazabilidad, control de proveedores y capacitación
     .mb-0  
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-start.mb-5
       .col-12.col-lg-9.order-2.order-lg-1
         .tarjeta.color-secundario-cv.p-3.rounded-0.mb-3
           .row.justify-content-center.align-items-center.mb-0

@@ -114,10 +114,10 @@
         .col-12.col-lg-9.order-2.order-lg-1
           .tarjeta.color-primario-cv.p-3.rounded-0.mb-3
             .row.justify-content-center.align-items-center.mb-0
-              .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
+              .col-lg-2.d-lg-block.d-none(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema2/img_11.png', class="img-fluid ")
-              .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
+              .col-12.col-lg-10.mb-0(data-aos="zoom-in-right")
                 p.mb-0 El <em>Codex Alimentarius</em>, desarrollado por la FAO y la OMS, establece directrices internacionales orientadas a proteger la salud del consumidor y garantizar prácticas leales en el comercio de alimentos. Dentro de sus principios generales de higiene, el análisis de riesgo constituye el fundamento científico sobre el cual se estructuran los sistemas preventivos como el APPCC. Este enfoque permite tomar decisiones técnicas basadas en evidencia, priorizando los peligros que representan mayor impacto para la salud pública.
           p.mb-0 El análisis de riesgo constituye el fundamento científico del sistema APPCC y comprende tres componentes interrelacionados: 
         .col-12.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
