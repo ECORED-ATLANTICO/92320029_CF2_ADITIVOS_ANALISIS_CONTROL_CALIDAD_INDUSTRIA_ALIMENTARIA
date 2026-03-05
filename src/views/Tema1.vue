@@ -43,8 +43,8 @@
             h5 Figura 1.
             |    Parámetros de medición y verificación de la calidad alimentaria
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema1/img_5.svg', class="img-fluid d-none d-lg-block").mb-5
-            img(src='@/assets/curso/tema1/img_6.svg', class="img-fluid d-block d-lg-none").mb-5
+            img(src='@/assets/curso/tema1/img_5.svg', class="img-fluid d-none d-lg-block" alt="En la figura 1 se enuncian los parámetros de medición y verificación de la calidad alimentaria: Cumplimiento de especificaciones físicos químicas. Estabilidad durante la vida útil. Ausencia de contaminantes. Conformidad con la normatividad vigente. Satisfacción de expectativas del mercado.").mb-5
+            img(src='@/assets/curso/tema1/img_6.svg', class="img-fluid d-block d-lg-none" alt="En la figura 1 se enuncian los parámetros de medición y verificación de la calidad alimentaria: Cumplimiento de especificaciones físicos químicas. Estabilidad durante la vida útil. Ausencia de contaminantes. Conformidad con la normatividad vigente. Satisfacción de expectativas del mercado.").mb-5
             figcaption Nota. Adaptado de la Organización Internacional de Normalización (ISO, 2023).
     
     .row.justify-content-center.align-items-center.mb-3
@@ -146,7 +146,7 @@
     
     .titulo-sexto.color-acento-botones(data-aos="zoom-in-right")
       h5 Tabla 2.
-      |  Dimensiones de la calidad en los alimentos
+      |  Diferencias entre calidad e inocuidad
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption 
@@ -172,7 +172,7 @@
           tr
             td.text-start Ejemplo.
             td.text-start Producto con buena textura.
-            td.text-start Producto libre de Salmonella.
+            td.text-start Producto libre de <em>Salmonella</em>.
     
     .bg_img_3.mb-3
  
@@ -194,7 +194,7 @@
             .crd_hover_txt--body
               h4.mb-0 Peligros biológicos
               p.mb-3 Incluyen bacterias patógenas, virus, parásitos y hongos. 
-              p.mb-0 Ejemplos: presencia de bacterias como Salmonella spp, Listeria monocytogenes o Escherichia coli O157:H7.
+              p.mb-0 Ejemplos: presencia de bacterias como <em>Salmonella</em> spp, Listeria monocytogenes o Escherichia coli O157:H7.
 
         .col-xl-4.col-lg-5.col-md-8.col-11.mb-4.mb-xl-0
           .crd_hover_txt(data-aos="flip-left")
@@ -259,7 +259,9 @@
               .tarjeta--color-white.h-100
                 .tarjeta--06
                 .tarjeta--slider__content.text-center En este contexto, sistemas preventivos como el APPCC permiten integrar la gestión de calidad con la protección sanitaria mediante el control de peligros en puntos estratégicos. De esta forma, la calidad trasciende lo comercial para convertirse en un mecanismo de responsabilidad social y protección de la salud colectiva.
-      
+    
+    p.mb-5 Fortalecer las competencias técnicas en calidad e inocuidad no solo mejora el desempeño organizacional, sino que contribuye directamente a la seguridad alimentaria y al bienestar de la población.
+
     .bg_img_5.mb-0
       .tarjeta.tarjeta--blanca.p-5.mb-0.rounded-5
         .row.justify-content-center.align-items-center.mb-0
@@ -270,13 +272,13 @@
             ul.list-unstyled.mb-3
               li.d-flex.align-items-start.mb-0
                 i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
-                span Calidad: El producto cumple especificaciones comerciales.
+                span Calidad: el producto cumple especificaciones comerciales.
               li.d-flex.align-items-start.mb-0
                 i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
-                span Inocuidad: Existe falla en el control de un peligro biológico
+                span Inocuidad: existe falla en el control de un peligro biológico
               li.d-flex.align-items-start.mb-0
                 i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
-                span Salud pública: Si el producto se distribuye, puede generar enfermedades transmitidas por alimentos.
+                span Salud pública: si el producto se distribuye, puede generar enfermedades transmitidas por alimentos.
             .tarjeta.color-primario-cv.p-3.rounded-0.mb-3(data-aos="zoom-in-right")
               p.mb-0 El ejemplo evidencia que la calidad sin control de inocuidad no garantiza protección sanitaria. Por ello, el APPCC establece monitoreo y acciones correctivas para prevenir riesgos y proteger al consumidor.
           .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
@@ -294,8 +296,8 @@
               h2.mb-3 Pódcast
               p.mb-5 Escuche el siguiente podcast y conozca información adicional sobre peligros biológicos, físicos y químicos en la industria alimentaria y cómo evitarlos: 
               TarjetaAudio.color-acento-botones.mb-0.p-5(
-                texto="Etiquetas bajo la lupa"
-                :audio="require('@/assets/curso/tema1/img_29.png')"
+                texto="Peligros biológicos, físicos y químicos en la industria alimentaria y cómo evitarlos"
+                :audio="require('@/assets/curso/podcast/Podcast_1_CF02_92320029.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = True")
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 </template>

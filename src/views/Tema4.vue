@@ -129,8 +129,8 @@
             h5 Figura 4.
             |    Etapas del proceso de producción de leche pasteurizada
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema4/img_8.svg', class="img-fluid d-none d-lg-block").mb-5
-            img(src='@/assets/curso/tema4/img_9.svg', class="img-fluid d-block d-lg-none").mb-5
+            img(src='@/assets/curso/tema4/img_8.svg', class="img-fluid d-none d-lg-block" alt="La figura 4  ilustra las etapas del proceso de producción de la leche pasteurizada. Recepción de leche cruda. Filtrado. Almacenamiento refrigerado. Pasteurización. Enfriamiento. Envasado. Almacenamiento en frío. Distribución").mb-5
+            img(src='@/assets/curso/tema4/img_9.svg', class="img-fluid d-block d-lg-none" alt="La figura 4  ilustra las etapas del proceso de producción de la leche pasteurizada. Recepción de leche cruda. Filtrado. Almacenamiento refrigerado. Pasteurización. Enfriamiento. Envasado. Almacenamiento en frío. Distribución").mb-5
             figcaption Nota. SENA, 2026.
     
     .cita-decorada.mb-5(data-aos="zoom-in-right")
@@ -153,7 +153,7 @@
           tr
             th.col-auto.col-lg-2 Etapa
             th.col-auto.col-lg-2 Peligro identificado
-            th.col-auto.col-lg-auto Tipo
+            th.col-auto.col-lg-2 Tipo
             th.col-auto.col-lg-5 Justificación técnica
             th.col-auto.col-lg-2 Significativo
         tbody

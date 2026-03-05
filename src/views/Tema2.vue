@@ -21,7 +21,7 @@
             figure
               img(src='@/assets/curso/tema2/img_3.png', class="img-fluid p-4")
           .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
-            p.mb-0 Esta metodología preventiva se fundamenta en el análisis científico del riesgo y se estructura en siete principios definidos por el Codex. Su implementación se articula con estándares internacionales como la norma ISO 22000 y con la normatividad colombiana vigente, consolidándose como una herramienta esencial para la evaluación y el control de la inocuidad.
+            p.mb-0 Esta metodología preventiva se fundamenta en el análisis científico del riesgo y se estructura en siete principios definidos por el <em>Codex</em>. Su implementación se articula con estándares internacionales como la norma ISO 22000 y con la normatividad colombiana vigente, consolidándose como una herramienta esencial para la evaluación y el control de la inocuidad.
 
     Separador
 
@@ -62,8 +62,8 @@
             h5 Figura 2.
             |    Pilares técnicos del sistema APPCC
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema2/img_8.svg', class="img-fluid d-none d-lg-block").mb-5
-            img(src='@/assets/curso/tema2/img_9.svg', class="img-fluid d-block d-lg-none").mb-5
+            img(src='@/assets/curso/tema2/img_8.svg', class="img-fluid d-none d-lg-block" alt="En la figura 2 se enuncian los pilares técnicos del sistema APPCC: Enfoque preventivo. Análisis científico de riesgo. Control sistemático de etapas críticas del proceso.").mb-5
+            img(src='@/assets/curso/tema2/img_9.svg', class="img-fluid d-block d-lg-none" alt="En la figura 2 se enuncian los pilares técnicos del sistema APPCC: Enfoque preventivo. Análisis científico de riesgo. Control sistemático de etapas críticas del proceso.").mb-5
             figcaption Nota. Adaptado del <em>Codex Alimentarius</em> (2023).
         
       p.mb-3 De igual manera, la comisión del <em>Codex Alimentarius</em> ha establecido siete principios fundamentales y estandarizados a nivel internacional para el sistema APPCC:
@@ -252,8 +252,8 @@
               h2.mb-3 Pódcast
               p.mb-5 Lo invitamos a escuchar el siguiente podcast para profundizar sobre el sistema APPCC: 
               TarjetaAudio.color-acento-botones.mb-0.p-5(
-                texto="Etiquetas bajo la lupa"
-                :audio="require('@/assets/curso/tema1/img_29.png')"
+                texto="El sistema APPCC"
+                :audio="require('@/assets/curso/podcast/Podcast_2_CF02_92320029.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = True")
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 </template>

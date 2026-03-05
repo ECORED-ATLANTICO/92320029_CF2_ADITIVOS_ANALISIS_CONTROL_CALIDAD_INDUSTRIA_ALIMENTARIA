@@ -156,7 +156,7 @@
             blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3
               .row.justify-content-center.align-items-center
                 .col-12.col-lg-10
-                  p.cita-decorada__texto.mb-2.p-3 La Resolución 2674 de 2013 y demás disposiciones vigentes establecen requisitos obligatorios para establecimientos de alimentos. Estas inspecciones verifican cumplimiento de BMP, implementación del sistema APPCC cuando aplique, condiciones higiénico-sanitarias, documentación y registros y control de trazabilidad. 
+                  p.cita-decorada__texto.mb-2.p-3 La Resolución 2674 de 2013 y demás disposiciones vigentes establecen requisitos obligatorios para establecimientos de alimentos. Estas inspecciones verifican cumplimiento de BPM, implementación del sistema APPCC cuando aplique, condiciones higiénico-sanitarias, documentación y registros y control de trazabilidad. 
                 .col-2.col-lg-1.d-none.d-lg-block
                   figure
                     img(src='@/assets/curso/tema6/img_14.svg', class="cita-decorada__imagen-flotante-1")

@@ -247,8 +247,8 @@
             h5 Figura 3.
             |    Aspectos estructurales de un programa de saneamiento
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema3/img_22.svg', class="img-fluid d-none d-lg-block").mb-5
-            img(src='@/assets/curso/tema3/img_23.svg', class="img-fluid d-block d-lg-none").mb-5
+            img(src='@/assets/curso/tema3/img_22.svg', class="img-fluid d-none d-lg-block" alt="La figura 3 enuncia los aspectos estructurales de un problema programa de saneamiento: Procedimientos de limpieza y desinfección. Frecuencias definidas. Productos químicos autorizados y concentraciones. Métodos de aplicación. Responsables asignados. Registros de ejecución y verificación.").mb-5
+            img(src='@/assets/curso/tema3/img_23.svg', class="img-fluid d-block d-lg-none" alt="La figura 3 enuncia los aspectos estructurales de un problema programa de saneamiento: Procedimientos de limpieza y desinfección. Frecuencias definidas. Productos químicos autorizados y concentraciones. Métodos de aplicación. Responsables asignados. Registros de ejecución y verificación.").mb-5
             figcaption Nota. Adaptado del <em>Codex Alimentarius</em> (2023). 
 
     .row.justify-content-center.align-items-center.mb-3 

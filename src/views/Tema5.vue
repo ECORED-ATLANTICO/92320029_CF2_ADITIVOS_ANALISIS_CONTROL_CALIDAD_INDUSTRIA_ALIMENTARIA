@@ -52,7 +52,7 @@
             .tarjeta.color-primario-cv.p-3(x="87%" y="23.5%" numero="")
               p <B>Resultados de pruebas microbiológicas:</B> análisis de laboratorio realizados bajo métodos validados que confirmen que el proceso logra los niveles de control microbiológico establecidos.
             .tarjeta.color-primario-cv.p-3(x="79.8%" y="69.5%" numero="")
-              p <B>Ensayos de desafío (challenge tests), cuando aplique:</B> Estudios experimentales en los que se inocula intencionalmente un microorganismo objetivo para verificar la capacidad real del proceso de controlarlo en condiciones específicas.
+              p <B>Ensayos de desafío (challenge tests), cuando aplique:</B> estudios experimentales en los que se inocula intencionalmente un microorganismo objetivo para verificar la capacidad real del proceso de controlarlo en condiciones específicas.
     
     
     .row.justify-content-center.align-items-center.mb-5
@@ -79,7 +79,7 @@
           img(src='@/assets/curso/tema5/img_9.svg', class="img-fluid p-4")
       .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
         p.mb-3 La verificación tiene como propósito confirmar que el sistema APPCC se implementa y mantiene conforme a lo planificado.
-        p.mb-0 El Codex (2023) señala que la verificación debe incluir:
+        p.mb-0 El <em>Codex</em> (2023) señala que la verificación debe incluir:
 
     .bg_img_19.mb-3
 
