@@ -244,10 +244,10 @@
             img(src='@/assets/curso/tema1/img_21.png', class="img-fluid") 
       
       .row.justify-content-center.align-items-center.mb-5
-        .col-10.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
+        .col-10.col-lg-6.col-xl-4.mb-3.mb-lg-0(data-aos="flip-left")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/tema1/img_23.png', class="img-fluid")
-        .col-12.col-lg-8
+        .col-12.col-lg-12.col-xl-8
           .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta--color-white.h-100
@@ -281,21 +281,23 @@
                 span Salud pública: si el producto se distribuye, puede generar enfermedades transmitidas por alimentos.
             .tarjeta.color-primario-cv.p-3.rounded-0.mb-3(data-aos="zoom-in-right")
               p.mb-0 El ejemplo evidencia que la calidad sin control de inocuidad no garantiza protección sanitaria. Por ello, el APPCC establece monitoreo y acciones correctivas para prevenir riesgos y proteger al consumidor.
-          .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
+          .col-12.col-lg-4.order-1.order-lg-2.mb-0.mb-lg-0(data-aos="zoom-in-right")
             figure
               img(src='@/assets/curso/tema1/img_28.png', class="img-fluid") 
     br
+    br
+
     .row.justify-content-center.align-items-center.mt-5.mb-5
-      .col-12.col-lg-7
+      .col-12.col-lg-12.col-xl-10
         .tarjeta.color-secundario-cv.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
           .row.justify-content-center.align-items-center.mb-0
-            .col-8.col-lg-6.mb-lg-0.mb-3
+            .col-8.col-lg-3.mb-lg-0.mb-3
               figure
                 img(src="@/assets/curso/tema1/img_29.png", class="img-fluid w-100")
-            .col-12.col-lg-6.mb-lg-0
-              h2.mb-3 Pódcast
-              p.mb-5 Escuche el siguiente podcast y conozca información adicional sobre peligros biológicos, físicos y químicos en la industria alimentaria y cómo evitarlos: 
-              TarjetaAudio.color-acento-botones.mb-0.p-5(
+            .col-12.col-lg-7.mb-lg-0
+              h2.mb-2 Pódcast
+              p.mb-2 Escuche el siguiente podcast y conozca información adicional sobre peligros biológicos, físicos y químicos en la industria alimentaria y cómo evitarlos: 
+              TarjetaAudio.color-acento-botones.mb-0.p-3(
                 texto="Peligros biológicos, físicos y químicos en la industria alimentaria y cómo evitarlos"
                 :audio="require('@/assets/curso/podcast/Podcast_1_CF02_92320029.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = True")

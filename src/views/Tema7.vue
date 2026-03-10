@@ -45,7 +45,7 @@
       .col-12.col-lg-10.mb-5
         .div.tarjeta--bg-img.color-primario-o.rounded-3.p-0.mb-5.overflow-hidden
           .row.justify-content-around.align-items-center.mb-0.h-100
-            .col-12.col-lg-2.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
+            .col-12.col-lg-2.mb-lg-0.mb-3.p-4.align-items-center.d-none.d-lg-block
               figure.p-0.m-0.h-100
                 img(src="@/assets/curso/tema2/img_21.svg" class="img-fluid w-100").p-0
             .col-12.col-lg-10.p-4.pe-5
@@ -87,9 +87,9 @@
       .col-12.col-lg-10.mb-5
         .div.tarjeta--bg-img.color-primario-o.rounded-3.p-0.mb-5.overflow-hidden
           .row.justify-content-around.align-items-center.mb-0.h-100
-            .col-12.col-lg-2.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
+            .col-12.col-lg-2.mb-lg-0.mb-3.p-4.align-items-center.d-none.d-lg-block
               figure.p-0.m-0.h-100
-                img(src="@/assets/curso/tema2/img_21.svg" class="img-fluid w-100").p-0
+                img(src="@/assets/curso/tema2/img_21.svg" class="img-fluid").p-1
             .col-12.col-lg-10.p-4.pe-5
               .row.justify-content-between.align-items-center
                 .col.mb-5.mb-sm-0

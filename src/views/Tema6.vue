@@ -29,7 +29,8 @@
           .col-2.col-lg-1.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema6/img_3.svg', class="cita-decorada__imagen-flotante-1")
-
+   
+    
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
         figure
@@ -37,45 +38,45 @@
       .col-12.col-lg-9.mb-0(data-aos="zoom-in-right")
         p.mb-3 Según la ISO 22000:2023, la auditoría interna es un mecanismo obligatorio dentro del sistema de gestión de inocuidad, orientado a verificar la conformidad, eficacia y mantenimiento del sistema (ISO, 2023). No se limita a revisar documentos; evalúa coherencia entre lo planificado y lo ejecutado en planta.
 
-    .bg_img_21.mb-3
-
-    .bloque-texto-q.mb-5(data-aos="zoom-in-right")
-      .bloque-texto-q__img
-        figure
-          img(src='@/assets/curso/tema6/img_5.png', class='img-fluid w-100')
-      .bloque-texto-q__cards.row.justify-content-center.align-items-center.g-3
-        .col-11.col-lg-4
-          .bloque-texto-q__texto
-            p.mb-3 Existen tres tipos principales de auditoría:
-            ul.list-unstyled.mb-0
-              li.d-flex.align-items-start.mb-1
-                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
-                span Auditoría interna.
-              li.d-flex.align-items-start.mb-1
-                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
-                span Auditoría de segunda parte (clientes).
-              li.d-flex.align-items-start.mb-0
-                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
-                span Auditoría de tercera parte (organismos certificadores o autoridades sanitarias).
-        .col-11.col-lg-4
-          .bloque-texto-q__texto
-            p.mb-3 La auditoría del APPCC debe evaluar:
-            ul.list-unstyled.mb-0
-              li.d-flex.align-items-start.mb-1
-                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
-                span Correcta aplicación de los siete principios.
-              li.d-flex.align-items-start.mb-1
-                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
-                span Actualización del análisis de peligros.
-              li.d-flex.align-items-start.mb-1
-                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
-                span Evidencia de validación y verificación.
-              li.d-flex.align-items-start.mb-1
-                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
-                span Registros de monitoreo.
-              li.d-flex.align-items-start.mb-0
-                i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
-                span Gestión de acciones correctivas.
+    
+    .bg_img_23.mb-3
+      .bloque-texto-q.mb-5(data-aos="zoom-in-right")
+        .bloque-texto-q__img
+          figure
+            img(src='@/assets/curso/tema6/img_5.png', class='img-fluid w-100')
+        .bloque-texto-q__cards.row.justify-content-center.align-items-center.g-3
+          .col-11.col-lg-4
+            .bloque-texto-q__texto
+              p.mb-3 Existen tres tipos principales de auditoría:
+              ul.list-unstyled.mb-0
+                li.d-flex.align-items-start.mb-1
+                  i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                  span Auditoría interna.
+                li.d-flex.align-items-start.mb-1
+                  i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                  span Auditoría de segunda parte (clientes).
+                li.d-flex.align-items-start.mb-0
+                  i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                  span Auditoría de tercera parte (organismos certificadores o autoridades sanitarias).
+          .col-11.col-lg-4
+            .bloque-texto-q__texto
+              p.mb-3 La auditoría del APPCC debe evaluar:
+              ul.list-unstyled.mb-0
+                li.d-flex.align-items-start.mb-1
+                  i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                  span Correcta aplicación de los siete principios.
+                li.d-flex.align-items-start.mb-1
+                  i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                  span Actualización del análisis de peligros.
+                li.d-flex.align-items-start.mb-1
+                  i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                  span Evidencia de validación y verificación.
+                li.d-flex.align-items-start.mb-1
+                  i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                  span Registros de monitoreo.
+                li.d-flex.align-items-start.mb-0
+                  i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size:15px; line-height:1.5;")
+                  span Gestión de acciones correctivas.
       
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-2.d-lg-block.d-none(data-aos="zoom-in-right")

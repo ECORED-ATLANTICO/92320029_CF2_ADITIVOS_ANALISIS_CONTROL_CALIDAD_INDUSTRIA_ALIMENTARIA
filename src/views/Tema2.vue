@@ -172,19 +172,19 @@
               figure
                 img(src='@/assets/curso/tema2/img_20.svg', class="img-fluid")
             .tarjeta.color-primario-cv.p-3(x="10%" y="22%" numero="")
-              p <B>Decreto 3075 de 1997</B> es el gestor normativo en Colombia. 
+              p.mb-0 <B>Decreto 3075 de 1997</B> es el gestor normativo en Colombia. 
             .tarjeta.color-primario-cv.p-3(x="37.5%" y="5%" numero="")
-              p <B>Resolución 2674 de 2013</B> (BPM y condiciones sanitarias). Esta resolución complementa al Decreto 3075 de 1997. A la fecha, esta resolución es la norma de mayor vigencia en Colombia y establece requisitos más exigentes y actualizados.
+              p.mb-0 <B>Resolución 2674 de 2013</B> (BPM y condiciones sanitarias). Esta resolución complementa al Decreto 3075 de 1997. A la fecha, esta resolución es la norma de mayor vigencia en Colombia y establece requisitos más exigentes y actualizados.
             .tarjeta.color-primario-cv.p-3(x="65.5%" y="5%" numero="")
-              p <B>Resolución 2606 de 2009</B> (uso de aditivos).
+              p.mb-0 <B>Resolución 2606 de 2009</B> (uso de aditivos).
             .tarjeta.color-primario-cv.p-3(x="93%" y="22%" numero="")
-              p <B>Resolución 2492 de 2022</B> (etiquetado frontal de advertencia).
+              p.mb-0 <B>Resolución 2492 de 2022</B> (etiquetado frontal de advertencia).
     
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-12.col-lg-10.mb-5
         .div.tarjeta--bg-img.color-primario-o.rounded-3.p-0.mb-5.overflow-hidden
           .row.justify-content-around.align-items-center.mb-0.h-100
-            .col-12.col-lg-2.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
+            .col-12.col-lg-2.mb-lg-0.mb-3.p-4.align-items-center.d-none.d-lg-block
               figure.p-0.m-0.h-100
                 img(src="@/assets/curso/tema2/img_21.svg" class="img-fluid w-100").p-0
             .col-12.col-lg-10.p-4.pe-5
@@ -242,16 +242,16 @@
               img(src='@/assets/curso/tema2/img_25.png', class="img-fluid") 
     br
     .row.justify-content-center.align-items-center.mt-5.mb-5
-      .col-12.col-lg-7
+      .col-12.col-lg-12.col-xl-10
         .tarjeta.color-secundario-cv.p-4.rounded-4.mb-3(data-aos="zoom-in-right")
           .row.justify-content-center.align-items-center.mb-0
-            .col-6.col-lg-6.mb-lg-0.mb-3
+            .col-8.col-lg-3.mb-lg-0.mb-3
               figure
                 img(src="@/assets/curso/tema1/img_29.png", class="img-fluid w-100")
-            .col-12.col-lg-6.mb-lg-0
-              h2.mb-3 Pódcast
-              p.mb-5 Lo invitamos a escuchar el siguiente podcast para profundizar sobre el sistema APPCC: 
-              TarjetaAudio.color-acento-botones.mb-0.p-5(
+            .col-12.col-lg-7.mb-lg-0
+              h2.mb-2 Pódcast
+              p.mb-2 Lo invitamos a escuchar el siguiente podcast para profundizar sobre el sistema APPCC: 
+              TarjetaAudio.color-acento-botones.mb-0.p-3(
                 texto="El sistema APPCC"
                 :audio="require('@/assets/curso/podcast/Podcast_2_CF02_92320029.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = True")

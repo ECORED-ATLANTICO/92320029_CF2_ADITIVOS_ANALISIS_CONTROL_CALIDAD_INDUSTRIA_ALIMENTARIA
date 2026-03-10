@@ -32,7 +32,7 @@
     TabsA.mb-0.tarjeta-tabs-a.color-acento-botones-cv.uno(data-aos="zoom-in-right")
       .tarjeta.bg-color-color-primario-cv.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Conformación del equipo APPCC")
         .row.justify-content-center.align-items-center.mb-0
-          .col-12.col-lg-6.order-2.order-lg-1
+          .col-12.col-lg-12.col-xl-6.order-2.order-xl-1
             h5.mb-3 Conformación del equipo APPCC
             p.mb-3 La organización debe designar un equipo multidisciplinario con conocimiento técnico del proceso productivo, microbiología, calidad, mantenimiento y normatividad.
             h5.mb-3  Criterios técnicos de conformación:
@@ -52,12 +52,12 @@
               li.d-flex.align-items-start.mb-0
                 i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
                 span Capacidad de análisis documental.
-          .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
+          .col-12.col-lg-8.col-xl-6.order-1.order-lg-1.order-xl-2.mb-3.mb-lg-0(data-aos="flip-left")
             figure
               img(src='@/assets/curso/tema4/img_3.png', class="img-fluid")
       .tarjeta.bg-color-color-primario-cv.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Descripción detallada del producto")
         .row.justify-content-center.align-items-center.mb-0
-          .col-12.col-lg-6.order-2.order-lg-1
+          .col-12.col-lg-12.col-xl-6.order-2.order-xl-1
             h5.mb-3 Descripción detallada del producto
             p.mb-3 La descripción del producto debe incluir:
             ul.list-unstyled.mb-3
@@ -80,21 +80,21 @@
                 i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
                 span Tipo de consumidor.
             p.mb-3 Esta caracterización es fundamental para el análisis de peligros, ya que las condiciones intrínsecas del alimento influyen en el crecimiento microbiano (FAO, 2023).
-          .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
+          .col-12.col-lg-8.col-xl-6.order-1.order-lg-1.order-xl-2.mb-3.mb-lg-0(data-aos="flip-left")
             figure
               img(src='@/assets/curso/tema4/img_4.png', class="img-fluid")
       .tarjeta.bg-color-color-primario-cv.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Identificación del uso previsto")
         .row.justify-content-center.align-items-center.mb-0
-          .col-12.col-lg-6.order-2.order-lg-1
+          .col-12.col-lg-12.col-xl-6.order-2.order-xl-1
             h5.mb-3 Identificación del uso previsto
             p.mb-3 El uso previsto define cómo se consumirá el alimento y si está dirigido a población general o grupos vulnerables (niños, adultos mayores, inmunosuprimidos).
             p.mb-0 El Codex (2023) señala que este aspecto influye directamente en la severidad del riesgo y en la definición de límites críticos más estrictos cuando sea necesario.
-          .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
+          .col-12.col-lg-8.col-xl-6.order-1.order-lg-1.order-xl-2.mb-3.mb-lg-0(data-aos="flip-left")
             figure
               img(src='@/assets/curso/tema4/img_5.png', class="img-fluid")
       .tarjeta.bg-color-color-primario-cv.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Elaboración y verificación del diagrama de flujo")
         .row.justify-content-center.align-items-center.mb-0
-          .col-12.col-lg-6.order-2.order-lg-1
+          .col-12.col-lg-12.col-xl-6.order-2.order-xl-1
             h5.mb-3 Elaboración y verificación del diagrama de flujo
             p.mb-3 El diagrama de flujo representa gráficamente cada etapa del proceso productivo desde la recepción de materias primas hasta la distribución.
             p.mb-3 Debe ser:
@@ -109,7 +109,7 @@
                 i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0
                 span Verificado en planta.
             p.mb-0 La verificación in situ permite confirmar que el diagrama refleja fielmente la operación real (ISO, 2023).
-          .col-12.col-lg-6.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
+          .col-12.col-lg-8.col-xl-6.order-1.order-lg-1.order-xl-2.mb-3.mb-lg-0(data-aos="flip-left")
             figure
               img(src='@/assets/curso/tema4/img_6.png', class="img-fluid")
 
@@ -179,10 +179,10 @@
     .bg_img_16.mb-3
 
       .row.justify-content-center.align-items-center.mb-5 
-        .col-8.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
+        .col-8.col-lg-8.col-xl-4.mb-3.mb-lg-0(data-aos="flip-left")
           figure
             img(src='@/assets/curso/tema4/img_12.png', class="img-fluid")
-        .col-12.col-lg-8
+        .col-12.col-lg-8.col-xl-12
           .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta--color-white.h-100

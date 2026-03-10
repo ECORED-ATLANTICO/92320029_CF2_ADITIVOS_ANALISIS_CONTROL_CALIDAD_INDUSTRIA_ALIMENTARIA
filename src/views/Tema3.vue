@@ -72,10 +72,10 @@
     .bg_img_11.mb-3
 
       .row.justify-content-center.align-items-center.mb-5 
-        .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
+        .col-12.col-lg-6.col-xl-4.mb-3.mb-lg-0(data-aos="flip-left")
           figure
-            img(src='@/assets/curso/tema2/img_13.png', class="img-fluid")
-        .col-12.col-lg-8
+            img(src='@/assets/curso/tema3/img_13.png', class="img-fluid")
+        .col-12.col-lg-12.col-xl-8
           .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta--color-white.h-100
@@ -143,7 +143,9 @@
           .col-2.col-lg-1.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema3/img_13.svg', class="cita-decorada__imagen-flotante-1")
-    
+    br
+    br
+
     .bg_img_12.mb-3
 
       p.mb-5(data-aos="zoom-out-up") La relación entre estos sistemas se define de la siguiente manera:
@@ -156,7 +158,7 @@
                 img(src="@/assets/curso/tema3/img_15.png", class="img-fluid")
             .crd_hover_txt--body
               h4.mb-0 BPM → APPCC
-              p.mb-0 las BPM controlan peligros de baja probabilidad, pero alto impacto, como fallas en higiene o infraestructura. Unas BPM sólidas permiten que el sistema APPCC se enfoque en peligros específicos del proceso (Puntos Críticos de Control), optimizando su eficacia técnica y evitando la sobrecarga del sistema.
+              p.mb-0 Las BPM controlan peligros de baja probabilidad, pero alto impacto, como fallas en higiene o infraestructura. Unas BPM sólidas permiten que el sistema APPCC se enfoque en peligros específicos del proceso (Puntos Críticos de Control), optimizando su eficacia técnica y evitando la sobrecarga del sistema.
 
         .col-xl-6.col-lg-6.col-md-8.col-11.mb-4.mb-xl-0
           .crd_hover_txt(data-aos="flip-left")
@@ -165,7 +167,7 @@
                 img(src="@/assets/curso/tema3/img_16.png", class="img-fluid")
             .crd_hover_txt--body
               h4.mb-0 BPM + APPCC → ISO 22000
-              p.mb-0 la norma ISO 22000 integra los Programas de Prerrequisitos (BPM y otros) con el enfoque sistemático del APPCC para identificar, evaluar y controlar peligros. Además, incorpora principios de gestión de la calidad.
+              p.mb-0 La norma ISO 22000 integra los Programas de Prerrequisitos (BPM y otros) con el enfoque sistemático del APPCC para identificar, evaluar y controlar peligros. Además, incorpora principios de gestión de la calidad.
 
     .row.justify-content-center.align-items-center.mb-5
 
@@ -224,10 +226,10 @@
     p.mb-5(data-aos="zoom-out-up") Dado que esta cultura se fundamenta en valores compartidos, las BPM solo son efectivas cuando el personal las interioriza y aplica consistentemente. Su éxito requiere un proceso de mejora continua que garantice controles sólidos y adaptables ante nuevos riesgos sanitarios.
 
     .row.justify-content-center.align-items-center(data-aos="fade-right")
-      .col-12.col-lg-10.mb-5
+      .col-12.col-lg-10
         .div.tarjeta--bg-img.color-primario-o.rounded-3.p-0.mb-5.overflow-hidden
           .row.justify-content-around.align-items-center.mb-0.h-100
-            .col-12.col-lg-2.mb-lg-0.mb-3.p-0.align-self-stretch.d-none.d-lg-block
+            .col-12.col-lg-2.mb-lg-0.mb-3.p-4.align-items-center.d-none.d-lg-block
               figure.p-0.m-0.h-100
                 img(src="@/assets/curso/tema2/img_21.svg" class="img-fluid w-100").p-0
             .col-12.col-lg-10.p-4.pe-5
@@ -285,10 +287,10 @@
       p.mb-0(data-aos="zoom-in-right") El <em>Codex Alimentarius</em> (2023) señala que los procedimientos de limpieza y desinfección deben validarse científicamente para asegurar que eliminan o reducen los peligros a niveles aceptables.
 
       .row.justify-content-center.align-items-center.mb-5 
-        .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-left")
+        .col-12.col-lg-6.col-xl-4.mb-3.mb-lg-0(data-aos="flip-left")
           figure
             img(src='@/assets/curso/tema3/img_26.png', class="img-fluid")
-        .col-12.col-lg-8
+        .col-12.col-lg-12.col-xl-8
           .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta--color-white.h-100

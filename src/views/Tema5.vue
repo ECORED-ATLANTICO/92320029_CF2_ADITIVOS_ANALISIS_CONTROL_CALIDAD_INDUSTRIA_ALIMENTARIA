@@ -46,13 +46,13 @@
               figure
                 img(src='@/assets/curso/tema5/img_7.svg', class="img-fluid")
             .tarjeta.color-primario-cv.p-3(x="36%" y="11%" numero="")
-              p <B>Estudios científicos reconocidos:</B> evidencia experimental publicada en fuentes confiables que demuestre que las medidas de control son eficaces para reducir o eliminar los peligros identificados. 
+              p.mb-0 <B>Estudios científicos reconocidos:</B> evidencia experimental publicada en fuentes confiables que demuestre que las medidas de control son eficaces para reducir o eliminar los peligros identificados. 
             .tarjeta.color-primario-cv.p-3(x="54.5%" y="41%" numero="")
-              p <B>Literatura técnica actualizada:</B> documentación técnica vigente, guías sectoriales y referencias normativas que respalden la pertinencia y suficiencia de las medidas implementadas.
+              p.mb-0 <B>Literatura técnica actualizada:</B> documentación técnica vigente, guías sectoriales y referencias normativas que respalden la pertinencia y suficiencia de las medidas implementadas.
             .tarjeta.color-primario-cv.p-3(x="87%" y="23.5%" numero="")
-              p <B>Resultados de pruebas microbiológicas:</B> análisis de laboratorio realizados bajo métodos validados que confirmen que el proceso logra los niveles de control microbiológico establecidos.
+              p.mb-0 <B>Resultados de pruebas microbiológicas:</B> análisis de laboratorio realizados bajo métodos validados que confirmen que el proceso logra los niveles de control microbiológico establecidos.
             .tarjeta.color-primario-cv.p-3(x="79.8%" y="69.5%" numero="")
-              p <B>Ensayos de desafío (challenge tests), cuando aplique:</B> estudios experimentales en los que se inocula intencionalmente un microorganismo objetivo para verificar la capacidad real del proceso de controlarlo en condiciones específicas.
+              p.mb-0 <B>Ensayos de desafío (challenge tests), cuando aplique:</B> estudios experimentales en los que se inocula intencionalmente un microorganismo objetivo para verificar la capacidad real del proceso de controlarlo en condiciones específicas.
     
     
     .row.justify-content-center.align-items-center.mb-5
@@ -90,13 +90,13 @@
               figure
                 img(src='@/assets/curso/tema5/img_11.svg', class="img-fluid")
             .tarjeta.color-primario-cv.p-3(x="3.9%" y="27.8%" numero="")
-              p <B>Revisión de registros:</B> análisis sistemático de los formatos y evidencias documentales para confirmar que el monitoreo y las acciones correctivas se ejecutaron conforme a lo planificado.
+              p.mb-0 <B>Revisión de registros:</B> análisis sistemático de los formatos y evidencias documentales para confirmar que el monitoreo y las acciones correctivas se ejecutaron conforme a lo planificado.
             .tarjeta.color-primario-cv.p-3(x="21.9%" y="10.7%" numero="")
-              p <B>Auditorías internas:</B> evaluaciones periódicas e independientes del sistema APPCC para determinar su grado de implementación, conformidad y eficacia.
+              p.mb-0 <B>Auditorías internas:</B> evaluaciones periódicas e independientes del sistema APPCC para determinar su grado de implementación, conformidad y eficacia.
             .tarjeta.color-primario-cv.p-3(x="64.9%" y="10.5%" numero="")
-              p <B>Inspecciones de procesos:</B> observación directa en planta para comprobar que las prácticas operativas y los controles se aplican según los procedimientos establecidos.
+              p.mb-0 <B>Inspecciones de procesos:</B> observación directa en planta para comprobar que las prácticas operativas y los controles se aplican según los procedimientos establecidos.
             .tarjeta.color-primario-cv.p-3(x="90.8%" y="5%" numero="")
-              p <B>Ensayos microbiológicos:</B> análisis de producto, superficies o ambiente que permiten corroborar objetivamente el desempeño sanitario del sistema.
+              p.mb-0 <B>Ensayos microbiológicos:</B> análisis de producto, superficies o ambiente que permiten corroborar objetivamente el desempeño sanitario del sistema.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-9.order-2.order-lg-1
@@ -156,7 +156,7 @@
       .h2(data-aos="fade-right") 5.4 Gestión de cambios y actualización del plan APPCC
     .mb-0 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-2
       .col-10.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema5/img_13.png', class="img-fluid") 
@@ -191,18 +191,16 @@
                     figure
                       img(src='@/assets/curso/tema5/img_15.svg', class="cita-decorada__imagen-flotante-1")
                   .col-12.col-lg-10
-                    p.cita-decorada__texto.mb-2.p-3 La FAO y WHO (2024) señalan que la gestión eficaz de cambios es un componente clave de la cultura de inocuidad, ya que permite responder dinámicamente a nuevos riesgos emergentes.
-            p.mb-3 Toda modificación debe documentarse y, cuando sea necesario, validarse nuevamente.
+                    p.cita-decorada__texto.mb-0.p-3 La FAO y WHO (2024) señalan que la gestión eficaz de cambios es un componente clave de la cultura de inocuidad, ya que permite responder dinámicamente a nuevos riesgos emergentes.
+            p.mb-0 Toda modificación debe documentarse y, cuando sea necesario, validarse nuevamente.
 
-    .bg_img_20.mb-3
-
+    .bg_img_20.mb-0
       Separador
-
       #t_5_5.titulo-segundo.color-primario
         .h2(data-aos="fade-right") 5.5 Mejora continua en integración con ISO 22000:2023
       .mb-0
       
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-3
         .col-3.col-lg-1.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/tema5/img_18.svg', class="img-fluid") 
