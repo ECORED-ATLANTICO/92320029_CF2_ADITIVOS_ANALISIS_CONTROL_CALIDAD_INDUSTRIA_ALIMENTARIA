@@ -179,10 +179,10 @@
     .bg_img_16.mb-3
 
       .row.justify-content-center.align-items-center.mb-5 
-        .col-8.col-lg-8.col-xl-4.mb-3.mb-lg-0(data-aos="flip-left")
+        .col-8.col-lg-6.col-xl-4.mb-3.mb-lg-0(data-aos="flip-left")
           figure
             img(src='@/assets/curso/tema4/img_12.png', class="img-fluid")
-        .col-12.col-lg-8.col-xl-12
+        .col-12.col-lg-12.col-xl-8
           .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta--color-white.h-100
