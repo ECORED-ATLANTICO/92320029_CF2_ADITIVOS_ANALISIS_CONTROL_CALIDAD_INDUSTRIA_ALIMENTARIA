@@ -250,7 +250,7 @@
                 img(src="@/assets/curso/tema1/img_29.png", class="img-fluid w-100")
             .col-12.col-lg-7.mb-lg-0
               h2.mb-2 Pódcast
-              p.mb-2 Lo invitamos a escuchar el siguiente podcast para profundizar sobre el sistema APPCC: 
+              p.mb-2 Lo invitamos a escuchar el siguiente pódcast para profundizar sobre el sistema APPCC: 
               TarjetaAudio.color-acento-botones.mb-0.p-3(
                 texto="El sistema APPCC"
                 :audio="require('@/assets/curso/podcast/Podcast_2_CF02_92320029.mp3')"

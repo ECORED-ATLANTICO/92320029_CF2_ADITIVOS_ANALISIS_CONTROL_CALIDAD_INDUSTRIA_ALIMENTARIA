@@ -296,7 +296,7 @@
                 img(src="@/assets/curso/tema1/img_29.png", class="img-fluid w-100")
             .col-12.col-lg-7.mb-lg-0
               h2.mb-2 Pódcast
-              p.mb-2 Escuche el siguiente podcast y conozca información adicional sobre peligros biológicos, físicos y químicos en la industria alimentaria y cómo evitarlos: 
+              p.mb-2 Escuche el siguiente pódcast y conozca información adicional sobre peligros biológicos, físicos y químicos en la industria alimentaria y cómo evitarlos: 
               TarjetaAudio.color-acento-botones.mb-0.p-3(
                 texto="Peligros biológicos, físicos y químicos en la industria alimentaria y cómo evitarlos"
                 :audio="require('@/assets/curso/podcast/Podcast_1_CF02_92320029.mp3')"
