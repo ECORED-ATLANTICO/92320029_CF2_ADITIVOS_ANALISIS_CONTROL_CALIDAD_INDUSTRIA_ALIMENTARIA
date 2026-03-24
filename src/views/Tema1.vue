@@ -52,7 +52,7 @@
         .cita-decorada
           blockquote.cita-decorada__caja.cita-decorada__caja--fondo-1.p-4
             .row.justify-content-center.align-items-center
-              .col-12.col-lg-10
+              .col-12.col-lg-11
                 p.cita-decorada__texto.mb-2.p-3 La Organización Internacional de Normalización (ISO) establece que la calidad implica el grado en el que un conjunto de características cumple con requisitos definidos (ISO, 2023). En alimentos, dichos requisitos incluyen estándares sanitarios, límites microbiológicos, composición declarada y condiciones de conservación.
               .col-2.col-lg-1.d-none.d-lg-block
                 figure
@@ -68,13 +68,13 @@
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta--color-white.h-100
                 .tarjeta--01
-                .tarjeta--slider__content.text-center Determinación nutricional: identificar la proporción de componentes mayoritarios y minoritarios con valor nutricional.
+                .tarjeta--slider__content.text-stard Determinación nutricional: identificar la proporción de componentes mayoritarios y minoritarios con valor nutricional.
               .tarjeta--color-white.h-100
                 .tarjeta--02
-                .tarjeta--slider__content.text-center Detección de componentes externos: analizar cualitativa y cuantitativamente la presencia de aditivos utilizados en la producción y de contaminantes adquiridos.
+                .tarjeta--slider__content.text-stard Detección de componentes externos: analizar cualitativa y cuantitativamente la presencia de aditivos utilizados en la producción y de contaminantes adquiridos.
               .tarjeta--color-white.h-100
                 .tarjeta--03
-                .tarjeta--slider__content.text-center Evaluación de alteraciones: establecer qué componentes se forman durante procesos como la cocción o la refrigeración y determinar su grado de toxicidad.
+                .tarjeta--slider__content.text-stard Evaluación de alteraciones: establecer qué componentes se forman durante procesos como la cocción o la refrigeración y determinar su grado de toxicidad.
         .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="flip-left")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/tema1/img_12.png', class="img-fluid")
@@ -128,8 +128,8 @@
               blockquote.cita-decorada__caja.cita-decorada__caja--fondo-2.p-4
                 .row.justify-content-center.align-items-center
                   .col-12.col-lg-10
-                    p.cita-decorada__texto.mb-2.p-0 La inocuidad alimentaria se refiere a la garantía de que un alimento no causará daño al consumidor cuando se prepare y consuma conforme a su uso previsto.
-                    p.cita-decorada__texto.mb-2.p-3 Este concepto se fundamenta en la prevención de peligros biológicos, químicos y físicos que puedan afectar la salud pública. A diferencia de la calidad sensorial o comercial, la inocuidad constituye un requisito obligatorio e innegociable.
+                    p.cita-decorada__texto.mb-2.p-1 La inocuidad alimentaria se refiere a la garantía de que un alimento no causará daño al consumidor cuando se prepare y consuma conforme a su uso previsto.
+                    p.cita-decorada__texto.mb-2.p-1 Este concepto se fundamenta en la prevención de peligros biológicos, químicos y físicos que puedan afectar la salud pública. A diferencia de la calidad sensorial o comercial, la inocuidad constituye un requisito obligatorio e innegociable.
                   .col-2.col-lg-1.d-none.d-lg-block
                     figure
                       img(src='@/assets/curso/tema1/img_14.svg', class="cita-decorada__imagen-flotante-1")
@@ -203,7 +203,7 @@
                 img(src="@/assets/curso/tema1/img_19.png", class="img-fluid")
             .crd_hover_txt--body
               h4.mb-0 Peligros químicos
-              p.mb-0 Incluyen sustancias tóxicas, naturales o añadidas, que pueden causar enfermedades agudas o crónicas.
+              p.mb-2 Incluyen sustancias tóxicas, naturales o añadidas, que pueden causar enfermedades agudas o crónicas.
               p.mb-0 Ejemplos: residuos de plaguicidas, metales pesados, aditivos mal dosificados micotoxinas y alérgenos.
 
         .col-xl-4.col-lg-5.col-md-8.col-11.mb-4.mb-xl-0
@@ -213,7 +213,7 @@
                 img(src="@/assets/curso/tema1/img_20.png", class="img-fluid")
             .crd_hover_txt--body
               h4.mb-0 Peligros físicos
-              p.mb-0 Incluyen objetos extraños, duros o cortantes incorporados accidentalmente durante la producción, procesamiento o manipulación.
+              p.mb-2 Incluyen objetos extraños, duros o cortantes incorporados accidentalmente durante la producción, procesamiento o manipulación.
               p.mb-0 Ejemplos: vidrio, metal, plástico, piedras, huesos, y restos de maquinaria.
 
     Separador
@@ -252,13 +252,13 @@
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta--color-white.h-100
                 .tarjeta--04
-                .tarjeta--slider__content.text-center Desde un enfoque sanitario, la inocuidad vincula la calidad del producto con la protección de la salud pública. Un alimento puede poseer atributos comerciales aceptables, como textura o sabor, pero ser peligroso si contiene patógenos o contaminantes. Por ello, la calidad sin inocuidad carece de valor sanitario y se convierte en un factor de riesgo.
+                .tarjeta--slider__content.text-stard Desde un enfoque sanitario, la inocuidad vincula la calidad del producto con la protección de la salud pública. Un alimento puede poseer atributos comerciales aceptables, como textura o sabor, pero ser peligroso si contiene patógenos o contaminantes. Por ello, la calidad sin inocuidad carece de valor sanitario y se convierte en un factor de riesgo.
               .tarjeta--color-white.h-100
                 .tarjeta--05
-                .tarjeta--slider__content.text-center Cuando los sistemas de control fallan, el impacto en la salud pública es significativo. Las enfermedades transmitidas por alimentos (ETA) afectan la productividad, los sistemas hospitalarios y la confianza del consumidor. Según la FAO y la OMS (2023), la prevención de riesgos alimentarios es una estrategia clave para reducir la carga global de enfermedades asociadas a productos contaminados.
+                .tarjeta--slider__content.text-stard Cuando los sistemas de control fallan, el impacto en la salud pública es significativo. Las enfermedades transmitidas por alimentos (ETA) afectan la productividad, los sistemas hospitalarios y la confianza del consumidor. Según la FAO y la OMS (2023), la prevención de riesgos alimentarios es una estrategia clave para reducir la carga global de enfermedades asociadas a productos contaminados.
               .tarjeta--color-white.h-100
                 .tarjeta--06
-                .tarjeta--slider__content.text-center En este contexto, sistemas preventivos como el APPCC permiten integrar la gestión de calidad con la protección sanitaria mediante el control de peligros en puntos estratégicos. De esta forma, la calidad trasciende lo comercial para convertirse en un mecanismo de responsabilidad social y protección de la salud colectiva.
+                .tarjeta--slider__content.text-stard En este contexto, sistemas preventivos como el APPCC permiten integrar la gestión de calidad con la protección sanitaria mediante el control de peligros en puntos estratégicos. De esta forma, la calidad trasciende lo comercial para convertirse en un mecanismo de responsabilidad social y protección de la salud colectiva.
     
     p.mb-5 Fortalecer las competencias técnicas en calidad e inocuidad no solo mejora el desempeño organizacional, sino que contribuye directamente a la seguridad alimentaria y al bienestar de la población.
 

@@ -133,13 +133,13 @@
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
               .tarjeta--color-white.h-100
                 .tarjeta--07
-                .tarjeta--slider__content.text-center Evaluación del riesgo: proceso científico de identificación y caracterización de peligros.
+                .tarjeta--slider__content.text-stard Evaluación del riesgo: proceso científico de identificación y caracterización de peligros.
               .tarjeta--color-white.h-100
                 .tarjeta--08
-                .tarjeta--slider__content.text-center Gestión del riesgo: implica la adopción de medidas regulatorias y controles apropiados.
+                .tarjeta--slider__content.text-stard Gestión del riesgo: implica la adopción de medidas regulatorias y controles apropiados.
               .tarjeta--color-white.h-100
                 .tarjeta--09
-                .tarjeta--slider__content.text-center Comunicación del riesgo: orientada a garantizar el intercambio transparente de información entre autoridades, sector productivo y consumidores.
+                .tarjeta--slider__content.text-stard Comunicación del riesgo: orientada a garantizar el intercambio transparente de información entre autoridades, sector productivo y consumidores.
         
       p.mb-0 Este modelo integrador asegura coherencia entre ciencia, regulación y protección de la salud pública, fortaleciendo la toma de decisiones en materia de inocuidad alimentaria a nivel nacional e internacional.
 
@@ -203,7 +203,7 @@
       .col-12.col-lg-7(data-aos='zoom-in-right')
         .tarjeta.color-secundario-cv.p-3.rounded-0.mb-3
           p.mb-0 Estas normativas establecen la obligatoriedad de implementar sistemas preventivos de control, los cuales pueden incluir el APPCC según el nivel de riesgo del establecimiento.
-        p.mb-0 La implementación del APPCC no solo responde a exigencias legales, sino que constituye una herramienta estratégica para:
+        p.mb-2 La implementación del APPCC no solo responde a exigencias legales, sino que constituye una herramienta estratégica para:
         ul.list-unstyled.mb-1
           li.d-flex.align-items-start.mb-0
             i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0

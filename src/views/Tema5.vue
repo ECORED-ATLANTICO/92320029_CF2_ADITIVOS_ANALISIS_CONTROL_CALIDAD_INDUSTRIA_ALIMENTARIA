@@ -245,6 +245,7 @@
     .mb-0 
 
     .row.justify-content-center.align-items-center.mb-5
+      p.mb-3 La medición objetiva del desempeño fortalece la toma de decisiones técnicas.
       .col-10.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema5/img_21.png', class="img-fluid") 
@@ -254,7 +255,7 @@
             figure
               img(src='@/assets/curso/tema5/img_22.svg', class="img-fluid") 
           .col-12.col-lg-11(data-aos="zoom-in-right")
-            p.mb-3 La medición objetiva del desempeño fortalece la toma de decisiones técnicas.
+            
             p.mb-3 Indicadores sugeridos:
             ul.list-unstyled.mb-3
               li.d-flex.align-items-start.mb-0

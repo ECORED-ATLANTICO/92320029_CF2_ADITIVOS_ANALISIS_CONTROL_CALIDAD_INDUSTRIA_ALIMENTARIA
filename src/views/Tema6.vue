@@ -35,7 +35,7 @@
       .col-lg-1.d-lg-block.d-none(data-aos="zoom-in-right")
         figure
           img(src='@/assets/curso/tema6/img_4.svg', class="img-fluid p-4")
-      .col-12.col-lg-9.mb-0(data-aos="zoom-in-right")
+      .col-12.col-lg-11.mb-0(data-aos="zoom-in-right")
         p.mb-3 Según la ISO 22000:2023, la auditoría interna es un mecanismo obligatorio dentro del sistema de gestión de inocuidad, orientado a verificar la conformidad, eficacia y mantenimiento del sistema (ISO, 2023). No se limita a revisar documentos; evalúa coherencia entre lo planificado y lo ejecutado en planta.
 
     
@@ -194,7 +194,7 @@
                 img(src='@/assets/curso/tema6/img_17.png', class='img-fluid w-100 h-100 rounded-start-4' style='object-fit: cover; object-position: left center')
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-10.mb-3(data-aos="zoom-in-right") 
+        .col-12.col-lg-12.mb-3(data-aos="zoom-in-right") 
           p.mb-0 La ausencia de evidencia documental constituye no conformidad, incluso si el proceso técnico es adecuado.
 
     Separador
@@ -261,11 +261,11 @@
         .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="zoom-in-right")
           .tarjeta.color-secundario-cv.p-4.rounded-0.mb-3
             .row.justify-content-center.align-items-center.mb-0
-              .col-3.col-lg-2.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in-right")
+              .col-3.col-lg-2.mb-2.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in-right")
                 figure
                   img(src='@/assets/curso/tema6/img_22.svg', class="img-fluid") 
               .col-12.col-lg-10(data-aos="zoom-in-right")
-                p.mb-0 La cultura de inocuidad se fortalece cuando:
+                p.mb-2 La cultura de inocuidad se fortalece cuando:
                 ul.list-unstyled.mb-3
                   li.d-flex.align-items-start.mb-0
                     i.fa-solid.fa-circle-arrow-right.me-2.flex-shrink-0(style="color:#B8D0F3; font-size: 15px; line-height: 1.5;").mb-0

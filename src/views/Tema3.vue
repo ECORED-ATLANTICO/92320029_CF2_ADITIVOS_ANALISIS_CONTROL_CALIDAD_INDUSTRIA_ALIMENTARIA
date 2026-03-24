@@ -19,20 +19,20 @@
       .row.d-flex.align-items-stretch.justify-content-center.mb-0 
         .col-12.col-md-5.col-lg-5.col-xl-3.d-flex.mb-3.mb-xl-0.mb-3(data-aos="flip-left")
           .w-100.d-flex.flex-column
-            .tarjeta--blanca-2.p-3.h-100
+            .tarjeta--blanca-2.p-3.d-flex.flex-column.justify-content-start.w-100.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
                 .col-6.col-lg-5.mb-3
                   figure
-                    img(src="@/assets/curso/tema3/img_3.svg", class="img-fluid")
+                    img(src="@/assets/curso/tema3/img_3.svg", class="img-fluid w-60")
                 .col-12.col-lg-12
                   p.mb-3 El <em>Codex Alimentarius</em> (2023) establece que antes de aplicar un plan APPCC, toda organización debe asegurar la implementación de prácticas generales de higiene que controlen peligros comunes del ambiente productivo. Esto significa que el APPCC no sustituye las Buenas Prácticas de Manufactura, sino que se apoya en ellas.
         .col-12.col-md-7.col-lg-7.col-xl-6.d-flex.mb-3.mb-xl-0.mb-3(data-aos="flip-left")
           .w-100.d-flex.flex-column
-            .tarjeta--blanca-2.p-3.h-100
+            .tarjeta--blanca-2.p-3.d-flex.flex-column.justify-content-start.w-100.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
                 .col-6.col-lg-2.mb-3
                   figure
-                    img(src="@/assets/curso/tema3/img_4.svg", class="img-fluid")
+                    img(src="@/assets/curso/tema3/img_4.svg", class="img-fluid w-100")
                 .col-12.col-lg-12
                   p.mb-3 Desde la perspectiva de gestión del riesgo, los PPR reducen la probabilidad basal de ocurrencia de peligros, permitiendo que el sistema APPCC se concentre exclusivamente en los peligros significativos que requieren control específico (FAO, 2023).
                   p.mb-3 En términos operativos:
@@ -48,7 +48,7 @@
                       span Ambos sistemas son interdependientes.
         .col-12.col-md-6.col-lg-6.col-xl-3.d-flex.mb-3.mb-xl-0.mb-3(data-aos="flip-left")
           figure
-            img(src="@/assets/curso/tema3/img_5.png", class="img-fluid")
+            img(src="@/assets/curso/tema3/img_5.png", class="img-fluid w-100 h-100", style="object-fit: cover; border-radius:12px;")
 
     Separador
 
