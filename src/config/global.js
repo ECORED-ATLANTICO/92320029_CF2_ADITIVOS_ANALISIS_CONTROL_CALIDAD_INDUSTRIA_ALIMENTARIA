@@ -247,7 +247,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_02_92320029_DU.zip',
+        download: 'downloads/CFA2_92320029_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -261,6 +261,7 @@ export default {
       },
     ],
   },
+  /*
   complementario: [
     {
       tema: '',
@@ -268,7 +269,7 @@ export default {
       tipo: '',
       link: '',
     },
-  ],
+  ],*/
   glosario: [
     {
       termino: 'Aditivo alimentario',
