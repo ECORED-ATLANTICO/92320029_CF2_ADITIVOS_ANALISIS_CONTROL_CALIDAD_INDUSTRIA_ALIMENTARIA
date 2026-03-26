@@ -23,7 +23,9 @@
               .row.justify-content-center.align-items-center.mb-0.p-0
                 .col-6.col-lg-5.mb-3
                   figure
-                    img(src="@/assets/curso/tema3/img_3.svg", class="img-fluid w-60")
+                    img(src="@/assets/curso/tema3/img_3.svg", 
+                    class="img-fluid",
+                    style="width:95px; height:95px; object-fit:contain;")
                 .col-12.col-lg-12
                   p.mb-3 El <em>Codex Alimentarius</em> (2023) establece que antes de aplicar un plan APPCC, toda organización debe asegurar la implementación de prácticas generales de higiene que controlen peligros comunes del ambiente productivo. Esto significa que el APPCC no sustituye las Buenas Prácticas de Manufactura, sino que se apoya en ellas.
         .col-12.col-md-7.col-lg-7.col-xl-6.d-flex.mb-3.mb-xl-0.mb-3(data-aos="flip-left")
@@ -32,7 +34,10 @@
               .row.justify-content-center.align-items-center.mb-0.p-0
                 .col-6.col-lg-2.mb-3
                   figure
-                    img(src="@/assets/curso/tema3/img_4.svg", class="img-fluid w-100")
+                    img(
+                      src="@/assets/curso/tema3/img_4.svg",
+                      class="img-fluid",
+                      style="width:95px; height:95px; object-fit:contain;")
                 .col-12.col-lg-12
                   p.mb-3 Desde la perspectiva de gestión del riesgo, los PPR reducen la probabilidad basal de ocurrencia de peligros, permitiendo que el sistema APPCC se concentre exclusivamente en los peligros significativos que requieren control específico (FAO, 2023).
                   p.mb-3 En términos operativos:
@@ -270,8 +275,8 @@
             h5 Figura 3.
             |    Aspectos estructurales de un programa de saneamiento
           figure(data-aos="flip-left")
-            img(src='@/assets/curso/tema3/img_22.svg', class="img-fluid d-none d-lg-block" alt="La figura 3 enuncia los aspectos estructurales de un problema programa de saneamiento: Procedimientos de limpieza y desinfección. Frecuencias definidas. Productos químicos autorizados y concentraciones. Métodos de aplicación. Responsables asignados. Registros de ejecución y verificación.").mb-5
-            img(src='@/assets/curso/tema3/img_23.svg', class="img-fluid d-block d-lg-none" alt="La figura 3 enuncia los aspectos estructurales de un problema programa de saneamiento: Procedimientos de limpieza y desinfección. Frecuencias definidas. Productos químicos autorizados y concentraciones. Métodos de aplicación. Responsables asignados. Registros de ejecución y verificación.").mb-5
+            img(src='@/assets/curso/tema3/img_22.svg', class="img-fluid d-none d-lg-block" alt="La figura 3 enuncia los aspectos estructurales de un problema programa de saneamiento: Procedimientos de limpieza y desinfección. Frecuencias definidas. Productos químicos autorizados y concentraciones. Métodos de aplicación. Responsables asignados. Registros de ejecución y verificación.").mb-3
+            img(src='@/assets/curso/tema3/img_23.svg', class="img-fluid d-block d-lg-none" alt="La figura 3 enuncia los aspectos estructurales de un problema programa de saneamiento: Procedimientos de limpieza y desinfección. Frecuencias definidas. Productos químicos autorizados y concentraciones. Métodos de aplicación. Responsables asignados. Registros de ejecución y verificación.").mb-3
             figcaption Nota. Adaptado del <em>Codex Alimentarius</em> (2023). 
 
     .row.justify-content-center.align-items-center.mb-3 
